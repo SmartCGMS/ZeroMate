@@ -20,6 +20,11 @@
 #include "../arm1176jzf_s/isa/coprocessor_data_transfer.hpp"
 #include "../arm1176jzf_s/isa/coprocessor_data_operation.hpp"
 
+namespace zero_mate::arm1176jzf_s
+{
+    class CCPU_Core;
+}
+
 namespace zero_mate::coprocessor
 {
     // -----------------------------------------------------------------------------------------------------------------
@@ -63,6 +68,12 @@ namespace zero_mate::coprocessor
         ICoprocessor& operator=(ICoprocessor&&) = delete;
 
         // -------------------------------------------------------------------------------------------------------------
+        /// \brief Sets the CPU core.
+        /// \param cpu_core Reference to the CPU core
+        // -------------------------------------------------------------------------------------------------------------
+        void Set_CPU_Core(std::weak_ptr<arm1176jzf_s::CCPU_Core> cpu_core);
+
+        // -------------------------------------------------------------------------------------------------------------
         /// \brief Resets the coprocessor.
         // -------------------------------------------------------------------------------------------------------------
         virtual void Reset() = 0;
@@ -99,6 +110,7 @@ namespace zero_mate::coprocessor
 
     protected:
         arm1176jzf_s::CCPU_Context& m_cpu_context;
+        std::weak_ptr<arm1176jzf_s::CCPU_Core> m_cpu_core;
     };
 
 } // namespace zero_mate::coprocessor

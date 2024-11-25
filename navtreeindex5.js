@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"classzero__mate_1_1peripheral_1_1CBSC.html#a542b29d1857d7d9927bc95355bb7541a":[1,0,0,3,3,31],
+"classzero__mate_1_1peripheral_1_1CBSC.html#a54fb1915fa7d6220432b640479184acc":[1,0,0,3,3,29],
 "classzero__mate_1_1peripheral_1_1CBSC.html#a631f31f819abf852e17bc0d6a54daa58":[1,0,0,3,3,23],
 "classzero__mate_1_1peripheral_1_1CBSC.html#a74b84158da1933e79f091706e27c12f5":[1,0,0,3,3,22],
 "classzero__mate_1_1peripheral_1_1CBSC.html#a7bb46225b106c799997486b8f357bb2e":[1,0,0,3,3,34],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "classzero__mate_1_1peripheral_1_1CMini__UART.html#aa97db5d47b819acd85beda1dc91cb355":[1,0,0,3,2,29],
 "classzero__mate_1_1peripheral_1_1CMini__UART.html#aade3f3d1075daa5531f1ab1b27f202de":[1,0,0,3,2,16],
 "classzero__mate_1_1peripheral_1_1CMini__UART.html#aae5f7e2bbffa6e3881675058a0aedf6f":[1,0,0,3,2,17],
-"classzero__mate_1_1peripheral_1_1CMini__UART.html#aafdd369ea20fb588fdba59b98e20b3b8":[1,0,0,3,2,18],
-"classzero__mate_1_1peripheral_1_1CMini__UART.html#ab5d2e9caf71f101101ef1bb75d69d94f":[1,0,0,3,2,28],
-"classzero__mate_1_1peripheral_1_1CMini__UART.html#ab7b7f2053470db06fcd5b559ee013ccc":[1,0,0,3,2,15]
+"classzero__mate_1_1peripheral_1_1CMini__UART.html#aafdd369ea20fb588fdba59b98e20b3b8":[1,0,0,3,2,18]
 };

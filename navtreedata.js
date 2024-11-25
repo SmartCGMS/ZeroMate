@@ -65,12 +65,12 @@ var NAVTREEINDEX =
 "alu_8cpp.html",
 "classzero__mate_1_1arm1176jzf__s_1_1CCPU__Core.html#afeea0a05cdda26114d6e03102f2d3a78",
 "classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CMultiply__Long.html#abaa07cd8dd6b2f457b9e559e42fc582c",
-"classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CCP__Data__Processing__Inst.html#a49f8f559ae22b85c74611ff2f595207baa7f4315c61692acd004e097e03b1531c",
-"classzero__mate_1_1gui_1_1CCP15__Window.html",
-"classzero__mate_1_1peripheral_1_1CBSC.html#a631f31f819abf852e17bc0d6a54daa58",
-"classzero__mate_1_1peripheral_1_1CMini__UART.html#ac1eceb5f172931b3059c2bb587f5e9bf",
-"functions_func_v.html",
-"primary__reg_8hpp.html"
+"classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CCP__Data__Processing__Inst.html#a49f8f559ae22b85c74611ff2f595207ba88183b946cc5f0e8c96b2e66e1c74a7e",
+"classzero__mate_1_1gui_1_1CCP10__Window.html#aab3255e4d9f0cf28b018d18887a3100f",
+"classzero__mate_1_1peripheral_1_1CBSC.html#a542b29d1857d7d9927bc95355bb7541a",
+"classzero__mate_1_1peripheral_1_1CMini__UART.html#ab5d2e9caf71f101101ef1bb75d69d94f",
+"functions_func_t.html",
+"peripheral_8hpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

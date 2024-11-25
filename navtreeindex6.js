@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"classzero__mate_1_1peripheral_1_1CMini__UART.html#ab5d2e9caf71f101101ef1bb75d69d94f":[1,0,0,3,2,28],
+"classzero__mate_1_1peripheral_1_1CMini__UART.html#ab7b7f2053470db06fcd5b559ee013ccc":[1,0,0,3,2,15],
 "classzero__mate_1_1peripheral_1_1CMini__UART.html#ac1eceb5f172931b3059c2bb587f5e9bf":[1,0,0,3,2,42],
 "classzero__mate_1_1peripheral_1_1CMini__UART.html#ac621244aa73f1f7d3d8ddf18fc715b6a":[1,0,0,3,2,10],
 "classzero__mate_1_1peripheral_1_1CMini__UART.html#ad15628b6f928101a1844704a58b11cdb":[1,0,0,3,2,37],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "functions_func_o.html":[1,3,1,11],
 "functions_func_p.html":[1,3,1,12],
 "functions_func_r.html":[1,3,1,13],
-"functions_func_s.html":[1,3,1,14],
-"functions_func_t.html":[1,3,1,15],
-"functions_func_u.html":[1,3,1,16]
+"functions_func_s.html":[1,3,1,14]
 };

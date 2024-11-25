@@ -146,14 +146,16 @@ var NAVTREEINDEX2 =
 "classzero__mate_1_1coprocessor_1_1ICoprocessor.html":[1,0,0,1,2],
 "classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a35e9d168418d30aefc0b21f1d5a8ddf8":[1,0,0,1,2,1],
 "classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a3f3da8c630b7bdf92218bf0a7c050f47":[1,0,0,1,2,9],
+"classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a476fb1266566ed1bb903f3a7e27f3142":[1,0,0,1,2,12],
 "classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a61deee49dd6d1f815e0de8bee23ce04a":[1,0,0,1,2,8],
 "classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a741213c5f2ab14ec7f6ccb97c7f4f976":[1,0,0,1,2,7],
 "classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a7c3c3f9aacc5710d97544fcf76525b4f":[1,0,0,1,2,6],
-"classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a892c31685b8a023844011b0394e5ea26":[1,0,0,1,2,10],
+"classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a892c31685b8a023844011b0394e5ea26":[1,0,0,1,2,11],
 "classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a986e5028e27e67dbf33124d222c63bfc":[1,0,0,1,2,2],
 "classzero__mate_1_1coprocessor_1_1ICoprocessor.html#aa921185383b9bb4ceb3675c89e95579d":[1,0,0,1,2,0],
 "classzero__mate_1_1coprocessor_1_1ICoprocessor.html#ac382acf9435c9898dc273fff22b55f1d":[1,0,0,1,2,5],
 "classzero__mate_1_1coprocessor_1_1ICoprocessor.html#ae7b875b62fc669d82d9d13c420c3d42a":[1,0,0,1,2,3],
+"classzero__mate_1_1coprocessor_1_1ICoprocessor.html#aee46a8fa41d01c108fc7ecd5d40b0dd1":[1,0,0,1,2,10],
 "classzero__mate_1_1coprocessor_1_1ICoprocessor.html#afc5638a34687b4d0bb60c7d58838a329":[1,0,0,1,2,4],
 "classzero__mate_1_1coprocessor_1_1cp10_1_1CCP10.html":[1,0,0,1,0,1],
 "classzero__mate_1_1coprocessor_1_1cp10_1_1CCP10.html#a021f5937f594c636f8368f100bb6f414":[1,0,0,1,0,1,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CCP__Data__Processing__Inst.html#a49f8f559ae22b85c74611ff2f595207ba67669bd7eddbc8dcd5838811abdf7087":[1,0,0,1,0,0,0,0,7],
 "classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CCP__Data__Processing__Inst.html#a49f8f559ae22b85c74611ff2f595207ba681adfeddafb74600c88abfff27363a2":[1,0,0,1,0,0,0,0,9],
 "classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CCP__Data__Processing__Inst.html#a49f8f559ae22b85c74611ff2f595207ba6ba4fdc19b78090f82e0b15459f48a38":[1,0,0,1,0,0,0,0,11],
-"classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CCP__Data__Processing__Inst.html#a49f8f559ae22b85c74611ff2f595207ba7df2341ac16e23b720237254a181f57d":[1,0,0,1,0,0,0,0,5],
-"classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CCP__Data__Processing__Inst.html#a49f8f559ae22b85c74611ff2f595207ba88183b946cc5f0e8c96b2e66e1c74a7e":[1,0,0,1,0,0,0,0,13],
-"classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CCP__Data__Processing__Inst.html#a49f8f559ae22b85c74611ff2f595207ba9edd3c979a64bbb4664ef3a7fdfddece":[1,0,0,1,0,0,0,0,6]
+"classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CCP__Data__Processing__Inst.html#a49f8f559ae22b85c74611ff2f595207ba7df2341ac16e23b720237254a181f57d":[1,0,0,1,0,0,0,0,5]
 };

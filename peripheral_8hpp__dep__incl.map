@@ -1,52 +1,52 @@
 <map id="src/core/peripherals/peripheral.hpp" name="src/core/peripherals/peripheral.hpp">
-<area shape="rect" id="node1" title="This file defines an interface for a memory&#45;mapped peripheral." alt="" coords="2329,5,2479,47"/>
-<area shape="rect" id="node2" href="$bus_8hpp.html" title="This file defines an interface the CPU uses to access different memory&#45;mapped peripherals." alt="" coords="1093,102,1221,129"/>
-<area shape="rect" id="node9" href="$control__window_8hpp.html" title="This file defines a window that allows the user to control CPU execution." alt="" coords="590,363,765,404"/>
-<area shape="rect" id="node24" href="$arm__timer_8hpp.html" title="This file defines the ARM timer used in BCM2835." alt="" coords="3059,184,3210,225"/>
-<area shape="rect" id="node28" href="$auxiliary_8hpp.html" title=" " alt="" coords="2529,273,2700,315"/>
-<area shape="rect" id="node33" href="$bsc_8hpp.html" title="This file defines the BSC peripheral used in BCM2835." alt="" coords="2078,273,2229,315"/>
-<area shape="rect" id="node35" href="$gpio_8hpp.html" title="This file defines the GPIO controller used in BCM2835." alt="" coords="2245,184,2395,225"/>
-<area shape="rect" id="node39" href="$interrupt__controller_8hpp.html" title="This file defines the interrupt controller used in BCM2835." alt="" coords="2576,95,2755,136"/>
-<area shape="rect" id="node43" href="$monitor_8hpp.html" title="This file defines an 80x25 8&#45;bit memory&#45;mapped monitor which is used as a debug output." alt="" coords="1574,273,1725,315"/>
-<area shape="rect" id="node46" href="$ram_8hpp.html" title="This file defines the RAM (random access memory) used in BCM2835." alt="" coords="3538,273,3689,315"/>
-<area shape="rect" id="node49" href="$trng_8hpp.html" title="This file defines the TRNG (random number generator) used in BCM2835." alt="" coords="3273,95,3423,136"/>
+<area shape="rect" id="node1" title="This file defines an interface for a memory&#45;mapped peripheral." alt="" coords="2414,5,2565,47"/>
+<area shape="rect" id="node2" href="$bus_8hpp.html" title="This file defines an interface the CPU uses to access different memory&#45;mapped peripherals." alt="" coords="1129,102,1257,129"/>
+<area shape="rect" id="node11" href="$control__window_8hpp.html" title="This file defines a window that allows the user to control CPU execution." alt="" coords="621,363,795,404"/>
+<area shape="rect" id="node25" href="$arm__timer_8hpp.html" title="This file defines the ARM timer used in BCM2835." alt="" coords="1767,184,1918,225"/>
+<area shape="rect" id="node29" href="$auxiliary_8hpp.html" title=" " alt="" coords="2855,273,3025,315"/>
+<area shape="rect" id="node34" href="$bsc_8hpp.html" title="This file defines the BSC peripheral used in BCM2835." alt="" coords="2125,273,2275,315"/>
+<area shape="rect" id="node36" href="$gpio_8hpp.html" title="This file defines the GPIO controller used in BCM2835." alt="" coords="2506,184,2657,225"/>
+<area shape="rect" id="node40" href="$interrupt__controller_8hpp.html" title="This file defines the interrupt controller used in BCM2835." alt="" coords="2280,95,2459,136"/>
+<area shape="rect" id="node43" href="$monitor_8hpp.html" title="This file defines an 80x25 8&#45;bit memory&#45;mapped monitor which is used as a debug output." alt="" coords="3206,273,3357,315"/>
+<area shape="rect" id="node46" href="$ram_8hpp.html" title="This file defines the RAM (random access memory) used in BCM2835." alt="" coords="3573,273,3723,315"/>
+<area shape="rect" id="node49" href="$trng_8hpp.html" title="This file defines the TRNG (random number generator) used in BCM2835." alt="" coords="2742,95,2893,136"/>
 <area shape="rect" id="node3" href="$core_8hpp.html" title="This file defines a class that represents a CPU core (arm1176jzf_s)." alt="" coords="982,273,1133,315"/>
-<area shape="rect" id="node5" href="$soc_8hpp.html" title=" " alt="" coords="2455,370,2582,397"/>
-<area shape="rect" id="node14" href="$top__bar__menu_8hpp.html" title=" " alt="" coords="415,363,566,404"/>
-<area shape="rect" id="node16" href="$mmu_8hpp.html" title="This file defines the MMU (memory management unit) of the CPU." alt="" coords="1165,184,1315,225"/>
-<area shape="rect" id="node18" href="$bus_8cpp.html" title="This file implements the interface defined in bus.hpp." alt="" coords="911,191,1038,218"/>
-<area shape="rect" id="node19" href="$cp10_8hpp.html" title="This file defines coprocessor CP10 (single&#45;precision FPU)." alt="" coords="1347,273,1509,315"/>
-<area shape="rect" id="node22" href="$elf__loader_8hpp.html" title="This file defines the functionality of an ELF loader." alt="" coords="219,281,389,307"/>
-<area shape="rect" id="node4" href="$core_8cpp.html" title="This file implements the CCPU_Core class defined in core.hpp." alt="" coords="789,363,939,404"/>
-<area shape="rect" id="node11" href="$registers__window_8hpp.html" title="This file defines a window that displays the contents of all CPU registers." alt="" coords="964,363,1151,404"/>
-<area shape="rect" id="node12" href="$source__code__window_8hpp.html" title="This file defines a window that displays loaded ELF files (disassembled instructions of the source co..." alt="" coords="217,363,391,404"/>
-<area shape="rect" id="node6" href="$soc_8cpp.html" title=" " alt="" coords="2386,459,2513,486"/>
-<area shape="rect" id="node7" href="$gui_8cpp.html" title="This file implements the main GUI entry function that takes care of creating and rendering all window..." alt="" coords="1749,459,1865,486"/>
-<area shape="rect" id="node8" href="$main_8cpp.html" title="This file defines and implements the main function of the application." alt="" coords="2537,459,2642,486"/>
-<area shape="rect" id="node10" href="$control__window_8cpp.html" title="This file implements a window that allows the user to control CPU execution." alt="" coords="590,452,765,493"/>
-<area shape="rect" id="node13" href="$source__code__window_8cpp.html" title="This file implements a window that displays loaded ELF files (disassembled instructions of the source..." alt="" coords="60,452,233,493"/>
-<area shape="rect" id="node15" href="$top__bar__menu_8cpp.html" title=" " alt="" coords="415,452,566,493"/>
-<area shape="rect" id="node17" href="$mmu_8cpp.html" title="This file implements the MMU (memory management unit) of the CPU." alt="" coords="1165,273,1315,315"/>
-<area shape="rect" id="node20" href="$cp10_8cpp.html" title="This file implements coprocessor CP10 (single&#45;precision FPU)." alt="" coords="1175,363,1337,404"/>
-<area shape="rect" id="node21" href="$cp10__window_8hpp.html" title="This file defines a window that displays data (information) related to coprocessor 10 (FPU)." alt="" coords="1362,363,1523,404"/>
-<area shape="rect" id="node23" href="$elf__loader_8cpp.html" title="This file implements the functionality of an ELF loader defined in elf_loader.hpp." alt="" coords="25,370,193,397"/>
-<area shape="rect" id="node25" href="$arm__timer_8cpp.html" title="This file implements the ARM timer used in BCM2835 as defined in arm_timer.hpp." alt="" coords="3261,273,3411,315"/>
-<area shape="rect" id="node26" href="$arm__timer__window_8hpp.html" title="This file defines a window that visualizes the contents of the ARM timer registers." alt="" coords="3033,273,3236,315"/>
-<area shape="rect" id="node27" href="$arm__timer__window_8cpp.html" title="This file implements a window that visualizes the contents of the ARM timer registers." alt="" coords="3277,363,3480,404"/>
-<area shape="rect" id="node29" href="$auxiliary_8cpp.html" title=" " alt="" coords="2606,363,2775,404"/>
-<area shape="rect" id="node30" href="$mini__uart_8cpp.html" title="This file implements the Mini UART auxiliary peripheral used in BCM2835." alt="" coords="2800,363,2976,404"/>
-<area shape="rect" id="node31" href="$aux__window_8hpp.html" title="This file defines a window that visualizes the auxiliaries (UART1 &amp; SPI1, and SPI2) used in BCM2835." alt="" coords="3000,363,3203,404"/>
-<area shape="rect" id="node32" href="$aux__window_8cpp.html" title="This file implements a window that visualizes the auxiliaries (UART1 &amp; SPI1, and SPI2) used in BCM283..." alt="" coords="3000,452,3203,493"/>
-<area shape="rect" id="node34" href="$bsc_8cpp.html" title="This file implements the BSC peripheral used in BCM2835." alt="" coords="2229,363,2379,404"/>
-<area shape="rect" id="node36" href="$gpio_8cpp.html" title="This file implements the GPIO controller used in BCM2835 (defined in gpio.hpp)." alt="" coords="2253,273,2403,315"/>
-<area shape="rect" id="node37" href="$gpio__window_8hpp.html" title="This file defines a window that visualizes the states and information about GPIO pins." alt="" coords="1749,273,1952,315"/>
-<area shape="rect" id="node38" href="$gpio__window_8cpp.html" title="This file implements a window that visualizes the states and information about GPIO pins." alt="" coords="2001,363,2204,404"/>
-<area shape="rect" id="node40" href="$interrupt__controller_8cpp.html" title="This file implements the interrupt controller used in BCM2835 (defined in interrupt_controller...." alt="" coords="2781,184,2958,225"/>
-<area shape="rect" id="node41" href="$interrupt__controller__window_8hpp.html" title="This file defines a window that visualizes the interrupt controller IC." alt="" coords="2471,184,2705,225"/>
-<area shape="rect" id="node42" href="$interrupt__controller__window_8cpp.html" title="This file implements a window that visualizes the interrupt controller IC." alt="" coords="2724,273,2959,315"/>
-<area shape="rect" id="node44" href="$monitor_8cpp.html" title="This file implements an 80x25 8&#45;bit memory&#45;mapped monitor which is used as a debug output." alt="" coords="1775,363,1926,404"/>
-<area shape="rect" id="node45" href="$monitor__window_8hpp.html" title="This file defines a window that visualizes the memory&#45;mapped debug monitor." alt="" coords="1548,363,1751,404"/>
-<area shape="rect" id="node47" href="$ram_8cpp.html" title="This file implements the RAM (random access memory) used in BCM2835." alt="" coords="3731,363,3882,404"/>
-<area shape="rect" id="node48" href="$ram__window_8hpp.html" title="This file defines a window that visualizes the contents of the RAM." alt="" coords="3504,363,3707,404"/>
-<area shape="rect" id="node50" href="$trng_8cpp.html" title="This file implements the TRNG (random number generator) used in BCM2835." alt="" coords="3273,184,3423,225"/>
+<area shape="rect" id="node7" href="$soc_8hpp.html" title=" " alt="" coords="2269,370,2395,397"/>
+<area shape="rect" id="node16" href="$top__bar__menu_8hpp.html" title=" " alt="" coords="446,363,597,404"/>
+<area shape="rect" id="node18" href="$mmu_8hpp.html" title="This file defines the MMU (memory management unit) of the CPU." alt="" coords="1225,184,1375,225"/>
+<area shape="rect" id="node20" href="$bus_8cpp.html" title="This file implements the interface defined in bus.hpp." alt="" coords="1022,191,1149,218"/>
+<area shape="rect" id="node21" href="$cp10_8hpp.html" title="This file defines coprocessor CP10 (single&#45;precision FPU)." alt="" coords="1332,273,1495,315"/>
+<area shape="rect" id="node23" href="$elf__loader_8hpp.html" title="This file defines the functionality of an ELF loader." alt="" coords="250,281,419,307"/>
+<area shape="rect" id="node4" href="$core_8cpp.html" title="This file implements the CCPU_Core class defined in core.hpp." alt="" coords="819,363,970,404"/>
+<area shape="rect" id="node5" href="$coprocessor_8cpp.html" title="This file implements the common functionality of a general interface of a coprocessor." alt="" coords="995,363,1157,404"/>
+<area shape="rect" id="node6" href="$cp10_8cpp.html" title="This file implements coprocessor CP10 (single&#45;precision FPU)." alt="" coords="1392,363,1555,404"/>
+<area shape="rect" id="node13" href="$registers__window_8hpp.html" title="This file defines a window that displays the contents of all CPU registers." alt="" coords="1181,363,1368,404"/>
+<area shape="rect" id="node14" href="$source__code__window_8hpp.html" title="This file defines a window that displays loaded ELF files (disassembled instructions of the source co..." alt="" coords="248,363,421,404"/>
+<area shape="rect" id="node8" href="$soc_8cpp.html" title=" " alt="" coords="2198,459,2325,486"/>
+<area shape="rect" id="node9" href="$gui_8cpp.html" title="This file implements the main GUI entry function that takes care of creating and rendering all window..." alt="" coords="1973,459,2089,486"/>
+<area shape="rect" id="node10" href="$main_8cpp.html" title="This file defines and implements the main function of the application." alt="" coords="2349,459,2454,486"/>
+<area shape="rect" id="node12" href="$control__window_8cpp.html" title="This file implements a window that allows the user to control CPU execution." alt="" coords="621,452,795,493"/>
+<area shape="rect" id="node15" href="$source__code__window_8cpp.html" title="This file implements a window that displays loaded ELF files (disassembled instructions of the source..." alt="" coords="187,452,360,493"/>
+<area shape="rect" id="node17" href="$top__bar__menu_8cpp.html" title=" " alt="" coords="446,452,597,493"/>
+<area shape="rect" id="node19" href="$mmu_8cpp.html" title="This file implements the MMU (memory management unit) of the CPU." alt="" coords="1157,273,1307,315"/>
+<area shape="rect" id="node22" href="$cp10__window_8hpp.html" title="This file defines a window that displays data (information) related to coprocessor 10 (FPU)." alt="" coords="1579,363,1741,404"/>
+<area shape="rect" id="node24" href="$elf__loader_8cpp.html" title="This file implements the functionality of an ELF loader defined in elf_loader.hpp." alt="" coords="5,370,173,397"/>
+<area shape="rect" id="node26" href="$arm__timer_8cpp.html" title="This file implements the ARM timer used in BCM2835 as defined in arm_timer.hpp." alt="" coords="1621,273,1771,315"/>
+<area shape="rect" id="node27" href="$arm__timer__window_8hpp.html" title="This file defines a window that visualizes the contents of the ARM timer registers." alt="" coords="1796,273,1999,315"/>
+<area shape="rect" id="node28" href="$arm__timer__window_8cpp.html" title="This file implements a window that visualizes the contents of the ARM timer registers." alt="" coords="1765,363,1968,404"/>
+<area shape="rect" id="node30" href="$auxiliary_8cpp.html" title=" " alt="" coords="2898,363,3067,404"/>
+<area shape="rect" id="node31" href="$mini__uart_8cpp.html" title="This file implements the Mini UART auxiliary peripheral used in BCM2835." alt="" coords="2697,363,2873,404"/>
+<area shape="rect" id="node32" href="$aux__window_8hpp.html" title="This file defines a window that visualizes the auxiliaries (UART1 &amp; SPI1, and SPI2) used in BCM2835." alt="" coords="3092,363,3295,404"/>
+<area shape="rect" id="node33" href="$aux__window_8cpp.html" title="This file implements a window that visualizes the auxiliaries (UART1 &amp; SPI1, and SPI2) used in BCM283..." alt="" coords="3092,452,3295,493"/>
+<area shape="rect" id="node35" href="$bsc_8cpp.html" title="This file implements the BSC peripheral used in BCM2835." alt="" coords="2094,363,2245,404"/>
+<area shape="rect" id="node37" href="$gpio_8cpp.html" title="This file implements the GPIO controller used in BCM2835 (defined in gpio.hpp)." alt="" coords="2578,273,2729,315"/>
+<area shape="rect" id="node38" href="$gpio__window_8hpp.html" title="This file defines a window that visualizes the states and information about GPIO pins." alt="" coords="2351,273,2553,315"/>
+<area shape="rect" id="node39" href="$gpio__window_8cpp.html" title="This file implements a window that visualizes the states and information about GPIO pins." alt="" coords="2471,363,2673,404"/>
+<area shape="rect" id="node41" href="$interrupt__controller_8cpp.html" title="This file implements the interrupt controller used in BCM2835 (defined in interrupt_controller...." alt="" coords="2253,184,2430,225"/>
+<area shape="rect" id="node42" href="$interrupt__controller__window_8hpp.html" title="This file defines a window that visualizes the interrupt controller IC." alt="" coords="1993,184,2228,225"/>
+<area shape="rect" id="node44" href="$monitor_8cpp.html" title="This file implements an 80x25 8&#45;bit memory&#45;mapped monitor which is used as a debug output." alt="" coords="3546,363,3697,404"/>
+<area shape="rect" id="node45" href="$monitor__window_8hpp.html" title="This file defines a window that visualizes the memory&#45;mapped debug monitor." alt="" coords="3319,363,3521,404"/>
+<area shape="rect" id="node47" href="$ram_8cpp.html" title="This file implements the RAM (random access memory) used in BCM2835." alt="" coords="3949,363,4099,404"/>
+<area shape="rect" id="node48" href="$ram__window_8hpp.html" title="This file defines a window that visualizes the contents of the RAM." alt="" coords="3721,363,3924,404"/>
+<area shape="rect" id="node50" href="$trng_8cpp.html" title="This file implements the TRNG (random number generator) used in BCM2835." alt="" coords="2855,184,3006,225"/>
 </map>

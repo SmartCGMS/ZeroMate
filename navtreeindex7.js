@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"functions_func_t.html":[1,3,1,15],
+"functions_func_u.html":[1,3,1,16],
 "functions_func_v.html":[1,3,1,17],
 "functions_func_w.html":[1,3,1,18],
 "functions_func_~.html":[1,3,1,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "page__table_8hpp.html":[2,0,2,0,0,1,5],
 "page__table_8hpp_source.html":[2,0,2,0,0,1,5],
 "pages.html":[],
-"peripheral_8hpp.html":[2,0,2,0,2,11],
-"peripheral_8hpp_source.html":[2,0,2,0,2,11],
-"primary__reg_8cpp.html":[2,0,2,0,1,1,12]
+"peripheral_8hpp.html":[2,0,2,0,2,11]
 };

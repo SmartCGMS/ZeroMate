@@ -9,7 +9,6 @@ var hierarchy =
       [ "zero_mate::coprocessor::cp10::isa::CCP_Register_Transfer_Inst", "classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CCP__Register__Transfer__Inst.html", null ]
     ] ],
     [ "zero_mate::arm1176jzf_s::CCPU_Context", "classzero__mate_1_1arm1176jzf__s_1_1CCPU__Context.html", null ],
-    [ "zero_mate::arm1176jzf_s::CCPU_Core", "classzero__mate_1_1arm1176jzf__s_1_1CCPU__Core.html", null ],
     [ "zero_mate::coprocessor::cp10::isa::CData_Processing", "classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CData__Processing.html", null ],
     [ "zero_mate::coprocessor::cp10::isa::CData_Transfer", "classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CData__Transfer.html", null ],
     [ "zero_mate::coprocessor::cp10::CFPEXC", "classzero__mate_1_1coprocessor_1_1cp10_1_1CFPEXC.html", null ],
@@ -50,6 +49,9 @@ var hierarchy =
     [ "zero_mate::coprocessor::cp10::isa::CVMOV_ARM_Register_Single_Precision_Register", "classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CVMOV__ARM__Register__Single__Precision__Register.html", null ],
     [ "zero_mate::coprocessor::cp10::isa::CVMRS", "classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CVMRS.html", null ],
     [ "zero_mate::coprocessor::cp10::isa::CVMSR", "classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CVMSR.html", null ],
+    [ "std::enable_shared_from_this", null, [
+      [ "zero_mate::arm1176jzf_s::CCPU_Core", "classzero__mate_1_1arm1176jzf__s_1_1CCPU__Core.html", null ]
+    ] ],
     [ "zero_mate::coprocessor::ICoprocessor", "classzero__mate_1_1coprocessor_1_1ICoprocessor.html", [
       [ "zero_mate::coprocessor::cp10::CCP10", "classzero__mate_1_1coprocessor_1_1cp10_1_1CCP10.html", null ],
       [ "zero_mate::coprocessor::cp15::CCP15", "classzero__mate_1_1coprocessor_1_1cp15_1_1CCP15.html", null ]

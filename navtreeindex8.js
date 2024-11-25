@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"peripheral_8hpp_source.html":[2,0,2,0,2,11],
+"primary__reg_8cpp.html":[2,0,2,0,1,1,12],
 "primary__reg_8hpp.html":[2,0,2,0,1,1,13],
 "primary__reg_8hpp.html#a66b708afc4250fcf6c6c54c02f32b779":[2,0,2,0,1,1,13,1],
 "primary__reg_8hpp.html#a66b708afc4250fcf6c6c54c02f32b779a1a2ddc2db4693cfd16d534cde5572cc1":[2,0,2,0,1,1,13,1,0],

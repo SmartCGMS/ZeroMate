@@ -131,6 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac382acf9435c9898dc273fff22b55f1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classzero__mate_1_1coprocessor_1_1ICoprocessor.html">ICoprocessor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classzero__mate_1_1coprocessor_1_1ICoprocessor.html#ac382acf9435c9898dc273fff22b55f1d">operator=</a> (<a class="el" href="classzero__mate_1_1coprocessor_1_1ICoprocessor.html">ICoprocessor</a> &amp;&amp;)=delete</td></tr>
 <tr class="memdesc:ac382acf9435c9898dc273fff22b55f1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deleted assignment operator with an r-value reference (rule of five).  <a href="classzero__mate_1_1coprocessor_1_1ICoprocessor.html#ac382acf9435c9898dc273fff22b55f1d">More...</a><br /></td></tr>
 <tr class="separator:ac382acf9435c9898dc273fff22b55f1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee46a8fa41d01c108fc7ecd5d40b0dd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classzero__mate_1_1coprocessor_1_1ICoprocessor.html#aee46a8fa41d01c108fc7ecd5d40b0dd1">Set_CPU_Core</a> (std::weak_ptr&lt; <a class="el" href="classzero__mate_1_1arm1176jzf__s_1_1CCPU__Core.html">arm1176jzf_s::CCPU_Core</a> &gt; cpu_core)</td></tr>
+<tr class="memdesc:aee46a8fa41d01c108fc7ecd5d40b0dd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the reference to the CPU core for e.g., the possibility to translate addresses.  <a href="classzero__mate_1_1coprocessor_1_1ICoprocessor.html#aee46a8fa41d01c108fc7ecd5d40b0dd1">More...</a><br /></td></tr>
+<tr class="separator:aee46a8fa41d01c108fc7ecd5d40b0dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f3da8c630b7bdf92218bf0a7c050f47"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a3f3da8c630b7bdf92218bf0a7c050f47">Reset</a> ()=0</td></tr>
 <tr class="memdesc:a3f3da8c630b7bdf92218bf0a7c050f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the coprocessor.  <a href="classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a3f3da8c630b7bdf92218bf0a7c050f47">More...</a><br /></td></tr>
 <tr class="separator:a3f3da8c630b7bdf92218bf0a7c050f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,6 +151,8 @@ Public Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a892c31685b8a023844011b0394e5ea26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classzero__mate_1_1arm1176jzf__s_1_1CCPU__Context.html">arm1176jzf_s::CCPU_Context</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a892c31685b8a023844011b0394e5ea26">m_cpu_context</a></td></tr>
 <tr class="separator:a892c31685b8a023844011b0394e5ea26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a476fb1266566ed1bb903f3a7e27f3142"><td class="memItemLeft" align="right" valign="top">std::weak_ptr&lt; <a class="el" href="classzero__mate_1_1arm1176jzf__s_1_1CCPU__Core.html">arm1176jzf_s::CCPU_Core</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classzero__mate_1_1coprocessor_1_1ICoprocessor.html#a476fb1266566ed1bb903f3a7e27f3142">m_cpu_core</a></td></tr>
+<tr class="separator:a476fb1266566ed1bb903f3a7e27f3142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class represents an interface of a coprocessor. </p>
@@ -468,6 +473,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aee46a8fa41d01c108fc7ecd5d40b0dd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee46a8fa41d01c108fc7ecd5d40b0dd1">&#9670;&nbsp;</a></span>Set_CPU_Core()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void zero_mate::coprocessor::ICoprocessor::Set_CPU_Core </td>
+          <td>(</td>
+          <td class="paramtype">std::weak_ptr&lt; <a class="el" href="classzero__mate_1_1arm1176jzf__s_1_1CCPU__Core.html">arm1176jzf_s::CCPU_Core</a> &gt;&#160;</td>
+          <td class="paramname"><em>cpu_core</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the reference to the CPU core for e.g., the possibility to translate addresses. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cpu_core</td><td>Reference to the CPU core </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a892c31685b8a023844011b0394e5ea26"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a892c31685b8a023844011b0394e5ea26">&#9670;&nbsp;</a></span>m_cpu_context</h2>
@@ -480,6 +511,28 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classzero__mate_1_1arm1176jzf__s_1_1CCPU__Context.html">arm1176jzf_s::CCPU_Context</a>&amp; zero_mate::coprocessor::ICoprocessor::m_cpu_context</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a476fb1266566ed1bb903f3a7e27f3142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a476fb1266566ed1bb903f3a7e27f3142">&#9670;&nbsp;</a></span>m_cpu_core</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::weak_ptr&lt;<a class="el" href="classzero__mate_1_1arm1176jzf__s_1_1CCPU__Core.html">arm1176jzf_s::CCPU_Core</a>&gt; zero_mate::coprocessor::ICoprocessor::m_cpu_core</td>
         </tr>
       </table>
   </td>

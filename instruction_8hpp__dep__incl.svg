@@ -50,9 +50,9 @@
 <path fill="none" stroke="midnightblue" d="M1860.65,-227.22C1836.91,-220.02 1812.8,-207.79 1798.5,-187 1787.92,-171.62 1790.66,-161.94 1798.5,-145 1806.83,-127 1824.12,-112.67 1838.91,-103.02"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1859.84,-230.63 1870.41,-229.92 1861.7,-223.88 1859.84,-230.63"/>
 </g>
-<!-- Node19 -->
+<!-- Node21 -->
 <g id="node6" class="node">
-<title>Node19</title>
+<title>Node21</title>
 <g id="a_node6"><a xlink:href="branch_8hpp.html" target="_top" xlink:title="This file defines a branch instruction (B, BL).">
 <polygon fill="none" stroke="black" points="883,-151 883,-181 996,-181 996,-151 883,-151"/>
 <text text-anchor="start" x="891" y="-169" font-family="Helvetica,sans-Serif" font-size="10.00">src/core/arm1176jzf</text>
@@ -60,15 +60,15 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node19 -->
+<!-- Node1&#45;&gt;Node21 -->
 <g id="edge5" class="edge">
-<title>Node1&#45;&gt;Node19</title>
+<title>Node1&#45;&gt;Node21</title>
 <path fill="none" stroke="midnightblue" d="M1859.97,-235.88C1673.15,-231.23 1168.62,-216.27 1004.5,-187 996.36,-185.55 987.82,-183.4 979.69,-181.03"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1860.14,-239.38 1870.22,-236.13 1860.31,-232.39 1860.14,-239.38"/>
 </g>
-<!-- Node21 -->
+<!-- Node23 -->
 <g id="node8" class="node">
-<title>Node21</title>
+<title>Node23</title>
 <g id="a_node8"><a xlink:href="branch__and__exchange_8hpp.html" target="_top" xlink:title="This file defines a branch and exchange instruction (BX).">
 <polygon fill="none" stroke="black" points="1014,-151 1014,-181 1191,-181 1191,-151 1014,-151"/>
 <text text-anchor="start" x="1022" y="-169" font-family="Helvetica,sans-Serif" font-size="10.00">src/core/arm1176jzf</text>
@@ -76,15 +76,15 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node21 -->
+<!-- Node1&#45;&gt;Node23 -->
 <g id="edge8" class="edge">
-<title>Node1&#45;&gt;Node21</title>
+<title>Node1&#45;&gt;Node23</title>
 <path fill="none" stroke="midnightblue" d="M1859.77,-235.77C1728.89,-231.87 1440.32,-219.99 1199.5,-187 1188.09,-185.44 1176,-183.32 1164.38,-181.05"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1859.95,-239.28 1870.05,-236.07 1860.15,-232.28 1859.95,-239.28"/>
 </g>
-<!-- Node23 -->
+<!-- Node25 -->
 <g id="node10" class="node">
-<title>Node23</title>
+<title>Node25</title>
 <g id="a_node10"><a xlink:href="clz_8hpp.html" target="_top" xlink:title="This file defines a count leading zeros instruction (CLZ).">
 <polygon fill="none" stroke="black" points="1209,-151 1209,-181 1322,-181 1322,-151 1209,-151"/>
 <text text-anchor="start" x="1217" y="-169" font-family="Helvetica,sans-Serif" font-size="10.00">src/core/arm1176jzf</text>
@@ -92,15 +92,15 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node23 -->
+<!-- Node1&#45;&gt;Node25 -->
 <g id="edge11" class="edge">
-<title>Node1&#45;&gt;Node23</title>
+<title>Node1&#45;&gt;Node25</title>
 <path fill="none" stroke="midnightblue" d="M1860.08,-236.45C1747.3,-233.68 1519.59,-223.61 1330.5,-187 1322.62,-185.47 1314.34,-183.35 1306.42,-181.05"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1860.23,-239.95 1870.3,-236.69 1860.39,-232.96 1860.23,-239.95"/>
 </g>
-<!-- Node25 -->
+<!-- Node27 -->
 <g id="node12" class="node">
-<title>Node25</title>
+<title>Node27</title>
 <g id="a_node12"><a xlink:href="coprocessor__data__operation_8hpp.html" target="_top" xlink:title="This file defines a coprocessor data operation (CDP).">
 <polygon fill="none" stroke="black" points="157,-145.5 157,-186.5 290,-186.5 290,-145.5 157,-145.5"/>
 <text text-anchor="start" x="165" y="-174.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/core/arm1176jzf</text>
@@ -109,9 +109,9 @@
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node25 -->
+<!-- Node1&#45;&gt;Node27 -->
 <g id="edge14" class="edge">
-<title>Node1&#45;&gt;Node25</title>
+<title>Node1&#45;&gt;Node27</title>
 <path fill="none" stroke="midnightblue" d="M1860.04,-236.55C1592.79,-232.76 641.66,-217.38 340.5,-187 324.1,-185.35 306.52,-182.77 290.11,-180.02"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1860.33,-240.06 1870.38,-236.7 1860.43,-233.06 1860.33,-240.06"/>
 </g>
@@ -444,15 +444,15 @@
 <path fill="none" stroke="midnightblue" d="M1915.37,-70.34C1920.44,-69.05 1925.55,-67.91 1930.5,-67 2183.27,-20.73 2491.39,-15.87 2616.57,-16.01"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1914.43,-66.97 1905.69,-72.96 1916.26,-73.73 1914.43,-66.97"/>
 </g>
-<!-- Node19&#45;&gt;Node4 -->
+<!-- Node21&#45;&gt;Node4 -->
 <g id="edge7" class="edge">
-<title>Node19&#45;&gt;Node4</title>
+<title>Node21&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M989.35,-148.28C994.42,-146.99 999.54,-145.86 1004.5,-145 1352.54,-84.57 1450.33,-168.68 1798.5,-109 1806.76,-107.58 1815.44,-105.45 1823.69,-103.09"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="988.41,-144.9 979.68,-150.91 990.25,-151.66 988.41,-144.9"/>
 </g>
-<!-- Node20 -->
+<!-- Node22 -->
 <g id="node7" class="node">
-<title>Node20</title>
+<title>Node22</title>
 <g id="a_node7"><a xlink:href="branch_8cpp.html" target="_top" xlink:title="This file implements a branch instruction (B, BL) as defined in branch.hpp.">
 <polygon fill="none" stroke="black" points="793,-73 793,-103 906,-103 906,-73 793,-73"/>
 <text text-anchor="start" x="801" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00">src/core/arm1176jzf</text>
@@ -460,21 +460,21 @@
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node20 -->
+<!-- Node21&#45;&gt;Node22 -->
 <g id="edge6" class="edge">
-<title>Node19&#45;&gt;Node20</title>
+<title>Node21&#45;&gt;Node22</title>
 <path fill="none" stroke="midnightblue" d="M914.51,-143.89C899.16,-130.93 879.91,-114.68 866.35,-103.23"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="912.67,-146.93 922.57,-150.7 917.19,-141.58 912.67,-146.93"/>
 </g>
-<!-- Node21&#45;&gt;Node4 -->
+<!-- Node23&#45;&gt;Node4 -->
 <g id="edge10" class="edge">
-<title>Node21&#45;&gt;Node4</title>
+<title>Node23&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M1173.88,-149.08C1182.48,-147.51 1191.17,-146.1 1199.5,-145 1463.89,-109.98 1535.97,-155.99 1798.5,-109 1806.63,-107.54 1815.18,-105.42 1823.32,-103.09"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1173.03,-145.67 1163.85,-150.97 1174.33,-152.55 1173.03,-145.67"/>
 </g>
-<!-- Node22 -->
+<!-- Node24 -->
 <g id="node9" class="node">
-<title>Node22</title>
+<title>Node24</title>
 <g id="a_node9"><a xlink:href="branch__and__exchange_8cpp.html" target="_top" xlink:title="This file implements a branch and exchange instruction (BX) as defined in branch_and_exchange....">
 <polygon fill="none" stroke="black" points="924.5,-73 924.5,-103 1100.5,-103 1100.5,-73 924.5,-73"/>
 <text text-anchor="start" x="932.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00">src/core/arm1176jzf</text>
@@ -482,21 +482,21 @@
 </a>
 </g>
 </g>
-<!-- Node21&#45;&gt;Node22 -->
+<!-- Node23&#45;&gt;Node24 -->
 <g id="edge9" class="edge">
-<title>Node21&#45;&gt;Node22</title>
+<title>Node23&#45;&gt;Node24</title>
 <path fill="none" stroke="midnightblue" d="M1077.51,-143.89C1062.16,-130.93 1042.91,-114.68 1029.35,-103.23"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1075.67,-146.93 1085.57,-150.7 1080.19,-141.58 1075.67,-146.93"/>
 </g>
-<!-- Node23&#45;&gt;Node4 -->
+<!-- Node25&#45;&gt;Node4 -->
 <g id="edge13" class="edge">
-<title>Node23&#45;&gt;Node4</title>
+<title>Node25&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M1316.19,-148.23C1320.99,-147 1325.82,-145.89 1330.5,-145 1535.45,-106.09 1593.46,-147.48 1798.5,-109 1806.5,-107.5 1814.91,-105.38 1822.94,-103.09"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1315.14,-144.89 1306.42,-150.91 1316.99,-151.64 1315.14,-144.89"/>
 </g>
-<!-- Node24 -->
+<!-- Node26 -->
 <g id="node11" class="node">
-<title>Node24</title>
+<title>Node26</title>
 <g id="a_node11"><a xlink:href="clz_8cpp.html" target="_top" xlink:title="This file implements a count leading zeros instruction (CLZ) as defined in clz.hpp.">
 <polygon fill="none" stroke="black" points="1119,-73 1119,-103 1232,-103 1232,-73 1119,-73"/>
 <text text-anchor="start" x="1127" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00">src/core/arm1176jzf</text>
@@ -504,21 +504,21 @@
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node24 -->
+<!-- Node25&#45;&gt;Node26 -->
 <g id="edge12" class="edge">
-<title>Node23&#45;&gt;Node24</title>
+<title>Node25&#45;&gt;Node26</title>
 <path fill="none" stroke="midnightblue" d="M1240.51,-143.89C1225.16,-130.93 1205.91,-114.68 1192.35,-103.23"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1238.67,-146.93 1248.57,-150.7 1243.19,-141.58 1238.67,-146.93"/>
 </g>
-<!-- Node25&#45;&gt;Node4 -->
+<!-- Node27&#45;&gt;Node4 -->
 <g id="edge16" class="edge">
-<title>Node25&#45;&gt;Node4</title>
+<title>Node27&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M300.23,-150.26C313.61,-148.15 327.42,-146.27 340.5,-145 663.08,-113.61 1478.51,-160.46 1798.5,-109 1807.01,-107.63 1815.96,-105.45 1824.42,-103.02"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="299.41,-146.84 290.1,-151.9 300.53,-153.75 299.41,-146.84"/>
 </g>
-<!-- Node26 -->
+<!-- Node28 -->
 <g id="node13" class="node">
-<title>Node26</title>
+<title>Node28</title>
 <g id="a_node13"><a xlink:href="coprocessor__data__operation_8cpp.html" target="_top" xlink:title="This file implements a coprocessor data operation (CDP) as defined in coprocessor_data_operation....">
 <polygon fill="none" stroke="black" points="0,-67.5 0,-108.5 133,-108.5 133,-67.5 0,-67.5"/>
 <text text-anchor="start" x="8" y="-96.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/core/arm1176jzf</text>
@@ -527,15 +527,15 @@
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node26 -->
+<!-- Node27&#45;&gt;Node28 -->
 <g id="edge15" class="edge">
-<title>Node25&#45;&gt;Node26</title>
+<title>Node27&#45;&gt;Node28</title>
 <path fill="none" stroke="midnightblue" d="M174.02,-141.05C152.37,-130.57 127.28,-118.42 106.79,-108.51"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="172.54,-144.22 183.07,-145.43 175.59,-137.92 172.54,-144.22"/>
 </g>
-<!-- Node27 -->
+<!-- Node29 -->
 <g id="node14" class="node">
-<title>Node27</title>
+<title>Node29</title>
 <g id="a_node14"><a xlink:href="coprocessor_8hpp.html" target="_top" xlink:title="This file defines a general interface of a coprocessor.">
 <polygon fill="none" stroke="red" points="151.5,-73 151.5,-103 273.5,-103 273.5,-73 151.5,-73"/>
 <text text-anchor="start" x="159.5" y="-91" font-family="Helvetica,sans-Serif" font-size="10.00">src/core/coprocessors</text>
@@ -543,9 +543,9 @@
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node27 -->
+<!-- Node27&#45;&gt;Node29 -->
 <g id="edge17" class="edge">
-<title>Node25&#45;&gt;Node27</title>
+<title>Node27&#45;&gt;Node29</title>
 <path fill="none" stroke="midnightblue" d="M219.2,-135.28C217.6,-124.25 215.86,-112.25 214.56,-103.23"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="215.77,-136.03 220.67,-145.43 222.7,-135.03 215.77,-136.03"/>
 </g>
@@ -555,9 +555,9 @@
 <path fill="none" stroke="midnightblue" d="M493.29,-147.75C499.76,-146.68 506.23,-145.73 512.5,-145 1080.39,-78.43 1234.13,-200.72 1798.5,-109 1807.01,-107.62 1815.95,-105.43 1824.41,-103"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="492.37,-144.36 483.13,-149.53 493.58,-151.25 492.37,-144.36"/>
 </g>
-<!-- Node43&#45;&gt;Node27 -->
+<!-- Node43&#45;&gt;Node29 -->
 <g id="edge21" class="edge">
-<title>Node43&#45;&gt;Node27</title>
+<title>Node43&#45;&gt;Node29</title>
 <path fill="none" stroke="midnightblue" d="M354.59,-141.93C320.61,-129.28 279.58,-113.99 250.36,-103.11"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="353.37,-145.22 363.96,-145.43 355.82,-138.66 353.37,-145.22"/>
 </g>
@@ -584,9 +584,9 @@
 <path fill="none" stroke="midnightblue" d="M681.13,-146.4C684.62,-145.88 688.09,-145.41 691.5,-145 1180.22,-86.07 1312.79,-189.06 1798.5,-109 1806.89,-107.62 1815.7,-105.46 1824.05,-103.07"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="680.55,-142.95 671.23,-147.99 681.66,-149.86 680.55,-142.95"/>
 </g>
-<!-- Node45&#45;&gt;Node27 -->
+<!-- Node45&#45;&gt;Node29 -->
 <g id="edge25" class="edge">
-<title>Node45&#45;&gt;Node27</title>
+<title>Node45&#45;&gt;Node29</title>
 <path fill="none" stroke="midnightblue" d="M511.87,-148.75C504.98,-147.46 498.12,-146.2 491.5,-145 398.76,-128.18 374.39,-129.98 282.5,-109 274.86,-107.26 266.82,-105.18 259.01,-103.04"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="511.49,-152.24 521.96,-150.63 512.78,-145.36 511.49,-152.24"/>
 </g>

@@ -6,6 +6,10 @@
 /// \brief This file implements coprocessor CP10 (single-precision FPU).
 // ---------------------------------------------------------------------------------------------------------------------
 
+// STL imports
+
+#include <limits>
+
 // 3rd party libraries
 
 #include "fmt/format.h"
@@ -307,8 +311,17 @@ namespace zero_mate::coprocessor::cp10
         // Get the indexes of the single-precision FPU registers.
         const auto [vd_idx, vn_idx, vm_idx] = instruction.Get_Register_Idxs();
 
-        // Z = X / Y
-        m_regs[vd_idx] = m_regs[vn_idx] / m_regs[vm_idx];
+        // corner case: division of zero by zero (note we intend to compare values for equality, as exact values does matter here)
+        // the sign of the result does not matter, but to conform with the RPiZero implementation, let us fall back to a negative NaN
+        if (m_regs[vn_idx].Get_Value_As<float>() == 0.0f && m_regs[vm_idx].Get_Value_As<float>() == 0.0f)
+        {
+            m_regs[vd_idx] = -std::numeric_limits<float>::quiet_NaN();
+        }
+        else
+        {
+            // Z = X / Y
+            m_regs[vd_idx] = m_regs[vn_idx] / m_regs[vm_idx];
+        }
     }
 
     void CCP10::Execute_VABS(isa::CData_Processing instruction)
@@ -334,8 +347,17 @@ namespace zero_mate::coprocessor::cp10
         // Get the indexes of the single-precision FPU registers.
         const auto [vd_idx, vn_idx, vm_idx] = instruction.Get_Register_Idxs();
 
-        // Z = std::sqrt(X)
-        m_regs[vd_idx] = m_regs[vm_idx].Get_SQRT();
+        // corner case - square root of a negative number
+        // the sign of the result does not matter, but to conform with the RPiZero implementation, let us fall back to a negative NaN
+        if (m_regs[vm_idx].Get_Value_As<float>() < 0.0f)
+        {
+            m_regs[vd_idx] = -std::numeric_limits<float>::quiet_NaN();
+        }
+        else
+        {
+            // Z = std::sqrt(X)
+            m_regs[vd_idx] = m_regs[vm_idx].Get_SQRT();
+        }
     }
 
     void CCP10::Execute_VMLA_VMLS(isa::CData_Processing instruction)

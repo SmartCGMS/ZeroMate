@@ -2,13 +2,13 @@
 
 *Raspberry Pi Zero Emulator*
 
-[![version](https://img.shields.io/badge/version-1.4.2-blue)](https://github.com/silhavyj/ZeroMate/releases)
+[![version](https://img.shields.io/badge/version-1.4.3-blue)](https://github.com/SmartCGMS/ZeroMate/releases)
 [![C++20](https://img.shields.io/badge/standard-C%2B%2B%2020-blue.svg?logo=C%2B%2B)](https://isocpp.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 | CI  | Status  |
 | ------------- | ------------- |
-| Build  | [![Ubuntu](https://github.com/silhavyj/ZeroMate/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/silhavyj/ZeroMate/actions/workflows/ubuntu.yml) [![Windows](https://github.com/silhavyj/ZeroMate/actions/workflows/windows.yml/badge.svg)](https://github.com/silhavyj/ZeroMate/actions/workflows/windows.yml) [![MacOS](https://github.com/silhavyj/ZeroMate/actions/workflows/macos.yml/badge.svg)](https://github.com/silhavyj/ZeroMate/actions/workflows/macos.yml) |
+| Build  | [![Ubuntu](https://github.com/SmartCGMS/ZeroMate/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/SmartCGMS/ZeroMate/actions/workflows/ubuntu.yml) [![Windows](https://github.com/SmartCGMS/ZeroMate/actions/workflows/windows.yml/badge.svg)](https://github.com/SmartCGMS/ZeroMate/actions/workflows/windows.yml) [![MacOS](https://github.com/SmartCGMS/ZeroMate/actions/workflows/macos.yml/badge.svg)](https://github.com/SmartCGMS/ZeroMate/actions/workflows/macos.yml) |
 | Static code analysis  | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/ecdf90cb11424b19a184ad5a34c7c820)](https://app.codacy.com/gh/silhavyj/ZeroMate/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) |
 | Test coverage | [![codecov](https://codecov.io/gh/silhavyj/ZeroMate/branch/main/graph/badge.svg?token=SJOWREI75F)](https://codecov.io/gh/silhavyj/ZeroMate) |
 | Docs | [![Doxygen Documentation](https://img.shields.io/badge/docs-doxygen-green.svg)](https://silhavyj.github.io/ZeroMate/) |
@@ -19,9 +19,11 @@
 
 ZeroMate is an educational Raspberry Pi Zero emulator designed specifically as a **debugging tool for operating system development**. Its ultimate goal is to emulate [KIV-RTOS](https://github.com/MartinUbl/KIV-RTOS) (more information about the operating system itself can be found [here](https://home.zcu.cz/~ublm/?page=vyuka&sub=os)). Please keep in mind that while using the emulator, certain features may be missing or limited as it is still under active development.
 
+This project was originally developed by [Jakub Silhavy](https://github.com/silhavyj/) as a diploma thesis project. Thank you!
+
 ## Installation
 
-The emulator was tested on both Windows and Linux using the MSVC, GCC, and Clang compilers. You can download a ready-to-use executable for both platforms from the latest [release](https://github.com/silhavyj/ZeroMate/releases). Alternatively, if you are brave enough, you can attempt to [build](docs/build.md) it yourself from the source code.
+The emulator was tested on both Windows and Linux using the MSVC, GCC, and Clang compilers. You can download a ready-to-use executable for both platforms from the latest [release](https://github.com/SmartCGMS/ZeroMate/releases). Alternatively, if you are brave enough, you can attempt to [build](docs/build.md) it yourself from the source code.
 
 ## User manual
 

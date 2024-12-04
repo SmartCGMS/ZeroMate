@@ -46,7 +46,7 @@ namespace zero_mate::peripheral
     void CRAM::Reset() noexcept
     {
         // Clear out the content of the RAM.
-        std::fill_n(std::execution::par, m_data.get(), m_size, 0);
+        std::fill_n(m_data.get(), m_size, 0);
     }
 
     std::uint32_t CRAM::Get_Size() const noexcept

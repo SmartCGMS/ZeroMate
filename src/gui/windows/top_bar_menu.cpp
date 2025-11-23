@@ -20,6 +20,7 @@
 #include "../../app_info.hpp"
 #include "top_bar_menu.hpp"
 #include "zero_mate/utils/singleton.hpp"
+#include "../../utils/app_preferences.hpp"
 
 namespace zero_mate::gui
 {
@@ -159,6 +160,9 @@ namespace zero_mate::gui
             // Are we loading a kernel or a process?
             m_loading_kernel = loading_kernel;
 
+            m_file_browser.SetPwd(utils::prefs::Get_Preference(m_loading_kernel ? utils::prefs::NPreference::Kernel_Load_Last_Location
+                                                                                : utils::prefs::NPreference::Processes_Load_Last_Location));
+
             // Open the file browser.
             m_file_browser.Open();
         }
@@ -184,6 +188,11 @@ namespace zero_mate::gui
         // Check if the user has selected any files.
         if (m_file_browser.HasSelected())
         {
+            // Save the last location where the user has loaded files from.
+            utils::prefs::Set_Preference(m_loading_kernel ? utils::prefs::NPreference::Kernel_Load_Last_Location
+                                                         : utils::prefs::NPreference::Processes_Load_Last_Location,
+                                         m_file_browser.GetPwd().string());
+
             Load_ELF_Files();
             m_file_browser.ClearSelected();
         }

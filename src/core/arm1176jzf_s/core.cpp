@@ -440,13 +440,15 @@ namespace zero_mate::arm1176jzf_s
 
     void CCPU_Core::Execute_Exception(const exceptions::CCPU_Exception& exception)
     {
-        m_logging_system.Warning(exception.what());
-
-        // TODO do the same for FIQ?
-        if (exception.Get_Type() == exceptions::CCPU_Exception::NType::IRQ)
+        if (exception.Get_Type() == exceptions::CCPU_Exception::NType::IRQ || exception.Get_Type() == exceptions::CCPU_Exception::NType::FIQ)
         {
             // The compiler subtracts #4 from the LR register, so we need to compensate for that.
             PC() += CCPU_Context::Reg_Size;
+        }
+        else
+        {
+            // log only non-IRQ/FIQ exceptions
+            m_logging_system.Warning(exception.what());
         }
 
         // Set the mode of the CPU based on the thrown exception.

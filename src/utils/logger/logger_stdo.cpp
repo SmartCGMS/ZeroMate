@@ -25,44 +25,40 @@ namespace zero_mate::utils
 
     void CLogger_STDO::Info(const char* msg)
     {
-        const std::lock_guard<std::mutex> lock(m_mtx);
-
         // Make sure the logging level is at least Info.
         if (m_logging_level <= NLogging_Level::Info)
         {
+            const std::lock_guard<std::mutex> lock(m_mtx);
             fmt::print("{}\n", msg);
         }
     }
 
     void CLogger_STDO::Debug(const char* msg)
     {
-        const std::lock_guard<std::mutex> lock(m_mtx);
-
         // Make sure the logging level is at least Debug.
         if (m_logging_level <= NLogging_Level::Debug)
         {
+            const std::lock_guard<std::mutex> lock(m_mtx);
             fmt::print("{}\n", msg);
         }
     }
 
     void CLogger_STDO::Warning(const char* msg)
     {
-        const std::lock_guard<std::mutex> lock(m_mtx);
-
         // Make sure the logging level is at least Warning.
         if (m_logging_level <= NLogging_Level::Warning)
         {
+            const std::lock_guard<std::mutex> lock(m_mtx);
             fmt::print("{}\n", msg);
         }
     }
 
     void CLogger_STDO::Error(const char* msg)
     {
-        const std::lock_guard<std::mutex> lock(m_mtx);
-
         // Make sure the logging level is at least Error.
         if (m_logging_level <= NLogging_Level::Error)
         {
+            const std::lock_guard<std::mutex> lock(m_mtx);
             fmt::print("{}\n", msg);
         }
     }

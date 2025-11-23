@@ -209,48 +209,48 @@ namespace zero_mate::gui
 
     void CLog_Window::Debug(const char* msg)
     {
-        // Make added a log message thread-sage.
-        const std::lock_guard<std::mutex> lock(m_mtx);
-
         // Check if the logging level is set to Debug or less.
         if (m_logging_level <= NLogging_Level::Debug)
         {
+            // Make added a log message thread-safe.
+            const std::lock_guard<std::mutex> lock(m_mtx);
+
             m_buffer.Add(msg);
         }
     }
 
     void CLog_Window::Info(const char* msg)
     {
-        // Make added a log message thread-sage.
-        const std::lock_guard<std::mutex> lock(m_mtx);
-
         // Check if the logging level is set to Info or less.
         if (m_logging_level <= NLogging_Level::Info)
         {
+            // Make added a log message thread-safe.
+            const std::lock_guard<std::mutex> lock(m_mtx);
+
             m_buffer.Add(msg);
         }
     }
 
     void CLog_Window::Warning(const char* msg)
     {
-        // Make added a log message thread-sage.
-        const std::lock_guard<std::mutex> lock(m_mtx);
-
         // Check if the logging level is set to Warning or less.
         if (m_logging_level <= NLogging_Level::Warning)
         {
+            // Make added a log message thread-safe.
+            const std::lock_guard<std::mutex> lock(m_mtx);
+
             m_buffer.Add(msg);
         }
     }
 
     void CLog_Window::Error(const char* msg)
     {
-        // Make added a log message thread-sage.
-        const std::lock_guard<std::mutex> lock(m_mtx);
-
         // Check if the logging level is set to Error or less.
         if (m_logging_level <= NLogging_Level::Error)
         {
+            // Make added a log message thread-safe.
+            const std::lock_guard<std::mutex> lock(m_mtx);
+
             m_buffer.Add(msg);
         }
     }

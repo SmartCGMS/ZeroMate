@@ -1,4 +1,6 @@
 <map id="zero_mate::CBus::Get_Peripheral" name="zero_mate::CBus::Get_Peripheral">
-<area shape="rect" id="node1" title="Returns the corresponding peripheral based on the given address." alt="" coords="5,5,168,47"/>
-<area shape="rect" id="node2" href="$classzero__mate_1_1CBus.html#a6331d83a0dcf19b139ff42a6f2693787" title="Checks if a peripheral was found and is accessible." alt="" coords="216,5,387,47"/>
+<area shape="rect" id="Node000001" title="Returns the corresponding peripheral based on the given address." alt="" coords="5,29,168,69"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="47,30,44,20,51,10,65,5,87,3,112,6,125,13,123,18,110,11,87,8,66,10,54,15,49,21,52,28"/>
+<area shape="rect" id="Node000002" href="$classzero__mate_1_1CBus.html#a6331d83a0dcf19b139ff42a6f2693787" title="Checks if a peripheral was found and is accessible." alt="" coords="216,29,387,69"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="168,47,202,47,202,52,168,52"/>
 </map>

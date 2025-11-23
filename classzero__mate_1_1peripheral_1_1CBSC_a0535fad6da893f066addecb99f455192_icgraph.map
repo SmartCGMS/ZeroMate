@@ -1,5 +1,7 @@
 <map id="zero_mate::peripheral::CBSC::I2C_Send_Slave_Address" name="zero_mate::peripheral::CBSC::I2C_Send_Slave_Address">
-<area shape="rect" id="node1" title="Sends another bit of the slave&#39;s address." alt="" coords="457,5,633,61"/>
-<area shape="rect" id="node2" href="$classzero__mate_1_1peripheral_1_1CBSC.html#a3b0dd18504053624d39b9015015bb8fc" title="Updates the I2C state machine." alt="" coords="244,13,409,54"/>
-<area shape="rect" id="node3" href="$classzero__mate_1_1peripheral_1_1CBSC.html#a226982dd161163b65706cad569522488" title="Notifies the peripheral about how many CPU cycles have passed (ISystem_Clock_Listener interface)." alt="" coords="5,5,196,61"/>
+<area shape="rect" id="Node000001" title="Sends another bit of the slave&#39;s address." alt="" coords="457,5,633,60"/>
+<area shape="rect" id="Node000002" href="$classzero__mate_1_1peripheral_1_1CBSC.html#a3b0dd18504053624d39b9015015bb8fc" title="Updates the I2C state machine." alt="" coords="244,13,409,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="443,35,410,35,410,30,443,30"/>
+<area shape="rect" id="Node000003" href="$classzero__mate_1_1peripheral_1_1CBSC.html#a226982dd161163b65706cad569522488" title="Notifies the peripheral about how many CPU cycles have passed (ISystem_Clock_Listener interface)." alt="" coords="5,5,196,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="230,35,196,35,196,30,230,30"/>
 </map>

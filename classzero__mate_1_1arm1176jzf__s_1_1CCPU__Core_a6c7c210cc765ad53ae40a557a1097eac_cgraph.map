@@ -1,5 +1,9 @@
 <map id="zero_mate::arm1176jzf_s::CCPU_Core::Execute" name="zero_mate::arm1176jzf_s::CCPU_Core::Execute">
-<area shape="rect" id="node1" title="Executes a multiply long instruction." alt="" coords="5,39,181,80"/>
-<area shape="rect" id="node2" href="$namespacezero__mate_1_1arm1176jzf__s_1_1mac.html#ae0004fe8005cb2c044afa26992a8f42a" title="Multiples two 32&#45;bit values (the result it treated as a 32&#45;value as well)." alt="" coords="244,5,417,47"/>
-<area shape="rect" id="node3" href="$classzero__mate_1_1arm1176jzf__s_1_1CCPU__Context.html#a984bace2773aca71cf04701aa0ce9c54" title="Sets/resets a flag in the CPSR register of the current CPU mode." alt="" coords="229,71,432,112"/>
+<area shape="rect" id="Node000001" title="Executes a multiply long instruction." alt="" coords="5,37,181,77"/>
+<area shape="rect" id="Node000002" href="$namespacezero__mate_1_1arm1176jzf__s_1_1mac.html#ae0004fe8005cb2c044afa26992a8f42a" title="Multiples two 32&#45;bit values (the result it treated as a 32&#45;value as well)." alt="" coords="244,5,417,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,43,230,36,231,41,182,48"/>
+<area shape="rect" id="Node000004" href="$classzero__mate_1_1arm1176jzf__s_1_1CCPU__Context.html#a984bace2773aca71cf04701aa0ce9c54" title="Sets/resets a flag in the CPSR register of the current CPU mode." alt="" coords="229,69,432,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,67,216,71,215,76,181,72"/>
+<area shape="rect" id="Node000003" href="$namespacezero__mate_1_1utils_1_1math.html#af7d93c996dab2ff1b91c5a399dcfe29f" title="Tests whether a bit is set in the given integral variable." alt="" coords="480,5,649,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="417,23,466,23,466,28,417,28"/>
 </map>

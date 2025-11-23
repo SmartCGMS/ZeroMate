@@ -1,5 +1,7 @@
 <map id="zero_mate::coprocessor::cp10::CCP10::Execute_VCVT_VCVTR_Floating_Point_Integer" name="zero_mate::coprocessor::cp10::CCP10::Execute_VCVT_VCVTR_Floating_Point_Integer">
-<area shape="rect" id="node1" title="Executes a VCVT and VCVTR floating point instructions." alt="" coords="5,38,220,109"/>
-<area shape="rect" id="node2" href="$classzero__mate_1_1coprocessor_1_1cp10_1_1CCP10.html#ae202127183b1981232465e8d4dee2a07" title="Converts (casts) a floating point value into an integer." alt="" coords="268,5,445,61"/>
-<area shape="rect" id="node3" href="$classzero__mate_1_1coprocessor_1_1cp10_1_1CCP10.html#aba83e81d43442cb7b7f01fb21a296d8c" title="Converts (casts) an integer value into a floating point value." alt="" coords="268,85,445,141"/>
+<area shape="rect" id="Node000001" title="Executes a VCVT and VCVTR floating point instructions." alt="" coords="5,38,220,107"/>
+<area shape="rect" id="Node000002" href="$classzero__mate_1_1coprocessor_1_1cp10_1_1CCP10.html#ae202127183b1981232465e8d4dee2a07" title="Converts (casts) a floating point value into an integer." alt="" coords="268,5,445,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,52,254,47,255,52,221,58"/>
+<area shape="rect" id="Node000003" href="$classzero__mate_1_1coprocessor_1_1cp10_1_1CCP10.html#aba83e81d43442cb7b7f01fb21a296d8c" title="Converts (casts) an integer value into a floating point value." alt="" coords="268,84,445,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,87,255,93,254,98,220,92"/>
 </map>

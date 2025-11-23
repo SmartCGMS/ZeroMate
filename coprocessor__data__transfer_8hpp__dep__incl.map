@@ -1,35 +1,88 @@
 <map id="src/core/arm1176jzf_s/isa/coprocessor_data_transfer.hpp" name="src/core/arm1176jzf_s/isa/coprocessor_data_transfer.hpp">
-<area shape="rect" id="node1" title="This file defines a coprocessor data transfer (LDC, STC)." alt="" coords="1192,5,1369,61"/>
-<area shape="rect" id="node2" href="$coprocessor__data__transfer_8cpp.html" title="This file implements a coprocessor data transfer (LDC, STC) as defined in coprocessor_data_transfer...." alt="" coords="997,109,1175,165"/>
-<area shape="rect" id="node3" href="$arm1176jzf__s_2isa_2isa_8hpp.html" title="This file is just a helper file for including all ARM instructions supported by the emulator." alt="" coords="1587,213,1737,255"/>
-<area shape="rect" id="node20" href="$coprocessor_8hpp.html" title="This file defines a general interface of a coprocessor." alt="" coords="1199,117,1362,158"/>
-<area shape="rect" id="node4" href="$core_8hpp.html" title="This file defines a class that represents a CPU core (arm1176jzf_s)." alt="" coords="1173,481,1324,523"/>
-<area shape="rect" id="node5" href="$core_8cpp.html" title="This file implements the CCPU_Core class defined in core.hpp." alt="" coords="1145,571,1296,612"/>
-<area shape="rect" id="node6" href="$coprocessor_8cpp.html" title="This file implements the common functionality of a general interface of a coprocessor." alt="" coords="1731,571,1894,612"/>
-<area shape="rect" id="node7" href="$cp10_8cpp.html" title="This file implements coprocessor CP10 (single&#45;precision FPU)." alt="" coords="191,571,354,612"/>
-<area shape="rect" id="node8" href="$soc_8hpp.html" title=" " alt="" coords="379,578,505,605"/>
-<area shape="rect" id="node12" href="$control__window_8hpp.html" title="This file defines a window that allows the user to control CPU execution." alt="" coords="1532,571,1707,612"/>
-<area shape="rect" id="node14" href="$registers__window_8hpp.html" title="This file defines a window that displays the contents of all CPU registers." alt="" coords="1321,571,1507,612"/>
-<area shape="rect" id="node16" href="$source__code__window_8hpp.html" title="This file defines a window that displays loaded ELF files (disassembled instructions of the source co..." alt="" coords="773,571,946,612"/>
-<area shape="rect" id="node18" href="$top__bar__menu_8hpp.html" title=" " alt="" coords="971,571,1121,612"/>
-<area shape="rect" id="node9" href="$soc_8cpp.html" title=" " alt="" coords="303,667,429,694"/>
-<area shape="rect" id="node10" href="$gui_8cpp.html" title="This file implements the main GUI entry function that takes care of creating and rendering all window..." alt="" coords="917,667,1033,694"/>
-<area shape="rect" id="node11" href="$main_8cpp.html" title="This file defines and implements the main function of the application." alt="" coords="453,667,559,694"/>
-<area shape="rect" id="node13" href="$control__window_8cpp.html" title="This file implements a window that allows the user to control CPU execution." alt="" coords="1532,660,1707,701"/>
-<area shape="rect" id="node15" href="$registers__window_8cpp.html" title="This file implements a window that displays the contents of all CPU registers." alt="" coords="1321,660,1507,701"/>
-<area shape="rect" id="node17" href="$source__code__window_8cpp.html" title="This file implements a window that displays loaded ELF files (disassembled instructions of the source..." alt="" coords="683,660,857,701"/>
-<area shape="rect" id="node19" href="$top__bar__menu_8cpp.html" title=" " alt="" coords="1057,660,1208,701"/>
-<area shape="rect" id="node21" href="$cp10_8hpp.html" title="This file defines coprocessor CP10 (single&#45;precision FPU)." alt="" coords="262,481,425,523"/>
-<area shape="rect" id="node24" href="$cp15_8hpp.html" title="This file defines coprocessor CP15." alt="" coords="1111,213,1274,255"/>
-<area shape="rect" id="node22" href="$cp10__window_8hpp.html" title="This file defines a window that displays data (information) related to coprocessor 10 (FPU)." alt="" coords="5,571,167,612"/>
-<area shape="rect" id="node23" href="$cp10__window_8cpp.html" title="This file implements a window that displays data (information) related to coprocessor 10 (FPU)." alt="" coords="5,660,167,701"/>
-<area shape="rect" id="node25" href="$mmu_8hpp.html" title="This file defines the MMU (memory management unit) of the CPU." alt="" coords="999,392,1149,433"/>
-<area shape="rect" id="node27" href="$bus_8hpp.html" title="This file defines an interface the CPU uses to access different memory&#45;mapped peripherals." alt="" coords="835,310,963,337"/>
-<area shape="rect" id="node31" href="$cp15_8cpp.html" title="This file implements coprocessor CP15." alt="" coords="1298,303,1461,344"/>
-<area shape="rect" id="node32" href="$cp15__window_8hpp.html" title="This file defines a window that displays data (information) related to coprocessor 15." alt="" coords="1112,303,1273,344"/>
-<area shape="rect" id="node26" href="$mmu_8cpp.html" title="This file implements the MMU (memory management unit) of the CPU." alt="" coords="999,481,1149,523"/>
-<area shape="rect" id="node28" href="$bus_8cpp.html" title="This file implements the interface defined in bus.hpp." alt="" coords="500,399,627,426"/>
-<area shape="rect" id="node29" href="$elf__loader_8hpp.html" title="This file defines the functionality of an ELF loader." alt="" coords="753,489,923,515"/>
-<area shape="rect" id="node30" href="$elf__loader_8cpp.html" title="This file implements the functionality of an ELF loader defined in elf_loader.hpp." alt="" coords="530,578,698,605"/>
-<area shape="rect" id="node33" href="$cp15__window_8cpp.html" title="This file implements a window that displays data (information) related to coprocessor 15." alt="" coords="1299,392,1460,433"/>
+<area shape="rect" id="Node000001" title="This file defines a coprocessor data transfer (LDC, STC)." alt="" coords="1192,5,1369,60"/>
+<area shape="rect" id="Node000002" href="$coprocessor__data__transfer_8cpp.html" title="This file implements a coprocessor data transfer (LDC, STC) as defined in coprocessor_data_transfer...." alt="" coords="997,108,1175,163"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1219,69,1138,110,1136,106,1217,64"/>
+<area shape="rect" id="Node000003" href="$arm1176jzf__s_2isa_2isa_8hpp.html" title="This file is just a helper file for including all ARM instructions supported by the emulator." alt="" coords="1587,211,1737,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1345,64,1627,208,1624,213,1342,69"/>
+<area shape="rect" id="Node000020" href="$coprocessor_8hpp.html" title="This file defines a general interface of a coprocessor." alt="" coords="1199,115,1362,155"/>
+<area shape="poly" id="edge23_Node000001_Node000020" title=" " alt="" coords="1283,74,1283,115,1278,115,1278,74"/>
+<area shape="rect" id="Node000004" href="$core_8hpp.html" title="This file defines a class that represents a CPU core (arm1176jzf_s)." alt="" coords="1173,475,1324,515"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1648,264,1624,302,1591,347,1551,391,1503,429,1460,452,1414,469,1325,488,1324,483,1412,464,1458,447,1501,424,1547,387,1587,343,1619,299,1643,261"/>
+<area shape="rect" id="Node000005" href="$core_8cpp.html" title="This file implements the CCPU_Core class defined in core.hpp." alt="" coords="1145,563,1296,603"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1241,529,1229,563,1224,562,1236,527"/>
+<area shape="rect" id="Node000006" href="$coprocessor_8cpp.html" title="This file implements the common functionality of a general interface of a coprocessor." alt="" coords="1731,563,1894,603"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="1338,504,1515,528,1720,560,1732,562,1731,567,1719,565,1514,534,1337,510"/>
+<area shape="rect" id="Node000007" href="$cp10_8cpp.html" title="This file implements coprocessor CP10 (single&#45;precision FPU)." alt="" coords="191,563,354,603"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="1160,517,1039,531,936,538,761,542,587,545,486,552,366,565,354,567,354,562,366,560,485,547,587,540,761,537,936,533,1039,526,1159,512"/>
+<area shape="rect" id="Node000008" href="$soc_8hpp.html" title=" " alt="" coords="379,570,505,595"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="1160,517,1062,529,979,535,837,540,696,545,614,552,518,565,483,573,482,567,518,560,614,547,696,539,837,534,979,530,1062,524,1160,512"/>
+<area shape="rect" id="Node000012" href="$control__window_8hpp.html" title="This file defines a window that allows the user to control CPU execution." alt="" coords="1532,563,1707,603"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="1338,514,1539,560,1538,565,1337,519"/>
+<area shape="rect" id="Node000014" href="$registers__window_8hpp.html" title="This file defines a window that displays the contents of all CPU registers." alt="" coords="1321,563,1507,603"/>
+<area shape="poly" id="edge14_Node000004_Node000014" title=" " alt="" coords="1298,519,1379,560,1377,565,1296,523"/>
+<area shape="rect" id="Node000016" href="$source__code__window_8hpp.html" title="This file defines a window that displays loaded ELF files (disassembled instructions of the source co..." alt="" coords="773,563,946,603"/>
+<area shape="poly" id="edge17_Node000004_Node000016" title=" " alt="" coords="1160,518,945,565,944,560,1159,513"/>
+<area shape="rect" id="Node000018" href="$top__bar__menu_8hpp.html" title=" " alt="" coords="971,563,1121,603"/>
+<area shape="poly" id="edge20_Node000004_Node000018" title=" " alt="" coords="1193,522,1091,565,1089,560,1191,517"/>
+<area shape="rect" id="Node000009" href="$soc_8cpp.html" title=" " alt="" coords="303,658,429,683"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="425,608,379,659,375,656,421,604"/>
+<area shape="rect" id="Node000010" href="$gui_8cpp.html" title="This file implements the main GUI entry function that takes care of creating and rendering all window..." alt="" coords="917,658,1033,683"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="499,596,518,600,617,617,693,626,869,648,918,656,917,661,868,653,693,631,616,622,518,605,498,601"/>
+<area shape="rect" id="Node000011" href="$main_8cpp.html" title="This file defines and implements the main function of the application." alt="" coords="453,658,559,683"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="461,605,499,656,495,659,457,608"/>
+<area shape="poly" id="edge12_Node000012_Node000010" title=" " alt="" coords="1518,605,1384,620,1280,626,1176,634,1046,653,1015,661,1013,655,1046,648,1176,629,1279,621,1384,615,1518,600"/>
+<area shape="rect" id="Node000013" href="$control__window_8cpp.html" title="This file implements a window that allows the user to control CPU execution." alt="" coords="1532,651,1707,691"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="1622,617,1622,650,1617,650,1617,617"/>
+<area shape="poly" id="edge15_Node000014_Node000010" title=" " alt="" coords="1307,606,1047,653,1017,661,1016,655,1045,648,1306,601"/>
+<area shape="rect" id="Node000015" href="$registers__window_8cpp.html" title="This file implements a window that displays the contents of all CPU registers." alt="" coords="1321,651,1507,691"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="1417,617,1417,650,1411,650,1411,617"/>
+<area shape="poly" id="edge18_Node000016_Node000010" title=" " alt="" coords="898,609,961,656,958,660,895,613"/>
+<area shape="rect" id="Node000017" href="$source__code__window_8cpp.html" title="This file implements a window that displays loaded ELF files (disassembled instructions of the source..." alt="" coords="683,651,857,691"/>
+<area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="831,614,792,652,788,649,828,611"/>
+<area shape="poly" id="edge21_Node000018_Node000010" title=" " alt="" coords="1024,615,987,659,983,656,1020,612"/>
+<area shape="rect" id="Node000019" href="$top__bar__menu_8cpp.html" title=" " alt="" coords="1057,651,1208,691"/>
+<area shape="poly" id="edge22_Node000018_Node000019" title=" " alt="" coords="1077,611,1115,649,1112,652,1073,614"/>
+<area shape="poly" id="edge24_Node000020_Node000006" title=" " alt="" coords="1376,157,1436,180,1493,213,1516,234,1535,258,1547,286,1551,317,1551,408,1556,438,1569,465,1588,489,1612,509,1671,541,1732,562,1730,567,1669,545,1609,513,1584,492,1564,468,1551,440,1546,408,1546,318,1542,288,1530,261,1512,238,1489,217,1434,184,1374,161"/>
+<area shape="rect" id="Node000021" href="$cp10_8hpp.html" title="This file defines coprocessor CP10 (single&#45;precision FPU)." alt="" coords="262,475,425,515"/>
+<area shape="poly" id="edge25_Node000020_Node000021" title=" " alt="" coords="1203,162,1188,165,1093,186,1012,201,873,220,806,231,736,246,658,269,567,301,487,336,455,357,419,389,381,433,355,476,351,473,377,430,415,385,452,353,484,331,565,296,656,263,735,241,805,226,872,215,1011,196,1092,181,1187,160,1201,156"/>
+<area shape="rect" id="Node000024" href="$cp15_8hpp.html" title="This file defines coprocessor CP15." alt="" coords="1111,211,1274,251"/>
+<area shape="poly" id="edge31_Node000020_Node000024" title=" " alt="" coords="1256,167,1212,212,1209,209,1252,163"/>
+<area shape="poly" id="edge26_Node000021_Node000007" title=" " alt="" coords="321,527,290,564,286,561,317,524"/>
+<area shape="poly" id="edge27_Node000021_Node000008" title=" " alt="" coords="378,522,430,568,427,572,374,526"/>
+<area shape="rect" id="Node000022" href="$cp10__window_8hpp.html" title="This file defines a window that displays data (information) related to coprocessor 10 (FPU)." alt="" coords="5,563,167,603"/>
+<area shape="poly" id="edge28_Node000021_Node000022" title=" " alt="" coords="275,522,143,565,142,560,273,517"/>
+<area shape="poly" id="edge29_Node000022_Node000010" title=" " alt="" coords="180,600,375,619,527,625,677,631,869,648,917,655,916,661,868,653,677,636,526,631,374,625,180,605"/>
+<area shape="rect" id="Node000023" href="$cp10__window_8cpp.html" title="This file implements a window that displays data (information) related to coprocessor 10 (FPU)." alt="" coords="5,651,167,691"/>
+<area shape="poly" id="edge30_Node000022_Node000023" title=" " alt="" coords="89,617,89,650,83,650,83,617"/>
+<area shape="poly" id="edge32_Node000024_Node000004" title=" " alt="" coords="1288,239,1344,248,1399,261,1445,277,1463,286,1475,297,1495,330,1501,362,1494,395,1475,428,1451,446,1414,461,1325,483,1324,478,1413,456,1449,441,1471,425,1489,393,1496,362,1490,332,1471,300,1460,290,1443,281,1398,266,1343,254,1288,245"/>
+<area shape="poly" id="edge50_Node000024_Node000008" title=" " alt="" coords="1098,243,942,261,760,290,673,310,596,333,533,359,509,373,491,389,474,410,462,434,448,486,443,535,444,570,438,570,438,534,442,485,457,432,470,407,487,385,506,369,531,354,594,327,672,305,759,285,941,255,1097,238"/>
+<area shape="rect" id="Node000025" href="$mmu_8hpp.html" title="This file defines the MMU (memory management unit) of the CPU." alt="" coords="999,387,1149,427"/>
+<area shape="poly" id="edge33_Node000024_Node000025" title=" " alt="" coords="1146,260,1122,278,1103,300,1092,322,1084,345,1077,387,1072,386,1079,344,1087,320,1098,297,1119,274,1142,256"/>
+<area shape="rect" id="Node000027" href="$bus_8hpp.html" title="This file defines an interface the CPU uses to access different memory&#45;mapped peripherals." alt="" coords="835,306,963,331"/>
+<area shape="poly" id="edge37_Node000024_Node000027" title=" " alt="" coords="1116,257,939,309,938,303,1115,252"/>
+<area shape="rect" id="Node000031" href="$cp15_8cpp.html" title="This file implements coprocessor CP15." alt="" coords="1298,299,1461,339"/>
+<area shape="poly" id="edge49_Node000024_Node000031" title=" " alt="" coords="1247,254,1340,296,1337,301,1245,259"/>
+<area shape="rect" id="Node000032" href="$cp15__window_8hpp.html" title="This file defines a window that displays data (information) related to coprocessor 15." alt="" coords="1112,299,1273,339"/>
+<area shape="poly" id="edge51_Node000024_Node000032" title=" " alt="" coords="1195,265,1195,298,1190,298,1190,265"/>
+<area shape="poly" id="edge34_Node000025_Node000004" title=" " alt="" coords="1126,430,1212,472,1209,477,1123,435"/>
+<area shape="poly" id="edge36_Node000025_Node000008" title=" " alt="" coords="986,419,868,439,804,455,743,477,726,486,714,496,702,507,684,517,603,542,487,573,486,567,602,537,682,512,699,502,711,492,723,482,741,472,803,450,867,434,985,413"/>
+<area shape="rect" id="Node000026" href="$mmu_8cpp.html" title="This file implements the MMU (memory management unit) of the CPU." alt="" coords="999,475,1149,515"/>
+<area shape="poly" id="edge35_Node000025_Node000026" title=" " alt="" coords="1077,441,1077,474,1071,474,1071,441"/>
+<area shape="poly" id="edge38_Node000027_Node000004" title=" " alt="" coords="977,324,1022,332,1070,344,1118,361,1163,384,1189,404,1210,428,1241,473,1236,476,1206,432,1185,408,1161,389,1116,366,1068,349,1021,337,977,329"/>
+<area shape="poly" id="edge42_Node000027_Node000008" title=" " alt="" coords="869,341,463,572,461,568,866,336"/>
+<area shape="poly" id="edge43_Node000027_Node000018" title=" " alt="" coords="910,343,941,421,964,468,990,513,1028,560,1024,564,985,516,959,470,936,423,905,345"/>
+<area shape="poly" id="edge41_Node000027_Node000021" title=" " alt="" coords="822,325,749,330,665,341,576,360,490,389,453,408,418,431,364,476,361,472,415,427,450,404,488,384,574,355,664,336,749,325,821,319"/>
+<area shape="poly" id="edge39_Node000027_Node000025" title=" " alt="" coords="936,335,1037,384,1034,389,934,340"/>
+<area shape="rect" id="Node000028" href="$bus_8cpp.html" title="This file implements the interface defined in bus.hpp." alt="" coords="500,394,627,419"/>
+<area shape="poly" id="edge40_Node000027_Node000028" title=" " alt="" coords="842,337,609,397,607,391,841,332"/>
+<area shape="rect" id="Node000029" href="$elf__loader_8hpp.html" title="This file defines the functionality of an ELF loader." alt="" coords="753,482,923,507"/>
+<area shape="poly" id="edge44_Node000027_Node000029" title=" " alt="" coords="893,345,845,483,840,481,888,343"/>
+<area shape="poly" id="edge46_Node000029_Node000016" title=" " alt="" coords="847,520,857,562,852,563,842,522"/>
+<area shape="poly" id="edge45_Node000029_Node000017" title=" " alt="" coords="806,517,782,537,763,564,757,586,757,609,766,650,760,651,752,609,752,585,758,562,778,534,803,513"/>
+<area shape="poly" id="edge47_Node000029_Node000018" title=" " alt="" coords="880,510,1001,560,999,565,878,515"/>
+<area shape="rect" id="Node000030" href="$elf__loader_8cpp.html" title="This file implements the functionality of an ELF loader defined in elf_loader.hpp." alt="" coords="530,570,698,595"/>
+<area shape="poly" id="edge48_Node000029_Node000030" title=" " alt="" coords="796,515,645,572,643,567,794,510"/>
+<area shape="poly" id="edge52_Node000032_Node000010" title=" " alt="" coords="1213,348,1246,389,1266,408,1289,424,1338,448,1393,465,1453,476,1516,483,1643,489,1763,488,1862,491,1900,496,1928,506,1945,520,1949,542,1936,569,1908,605,1888,617,1855,627,1757,640,1630,647,1487,650,1211,649,1107,650,1046,653,1013,661,1012,655,1046,648,1107,644,1211,644,1487,644,1630,642,1757,635,1853,621,1885,612,1904,601,1932,567,1943,541,1941,523,1926,510,1899,502,1861,497,1763,494,1643,494,1515,489,1452,481,1392,470,1336,453,1286,429,1263,412,1242,392,1209,352"/>
+<area shape="rect" id="Node000033" href="$cp15__window_8cpp.html" title="This file implements a window that displays data (information) related to coprocessor 15." alt="" coords="1299,387,1460,427"/>
+<area shape="poly" id="edge53_Node000032_Node000033" title=" " alt="" coords="1247,342,1340,384,1337,389,1245,347"/>
 </map>

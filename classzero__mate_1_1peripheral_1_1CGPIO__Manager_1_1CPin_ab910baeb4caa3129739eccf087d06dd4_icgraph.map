@@ -1,6 +1,11 @@
 <map id="zero_mate::peripheral::CGPIO_Manager::CPin::Get_State" name="zero_mate::peripheral::CGPIO_Manager::CPin::Get_State">
-<area shape="rect" id="node1" title="Returns the current state of the pin." alt="" coords="691,5,863,61"/>
-<area shape="rect" id="node2" href="$classzero__mate_1_1gui_1_1CGPIO__Window.html#aeeb6f57b70b2367e666550cb69bd5d13" title="Renders information about a single GPIO pin (table row)." alt="" coords="443,13,643,54"/>
-<area shape="rect" id="node3" href="$classzero__mate_1_1gui_1_1CGPIO__Window.html#ad1affc13af41a19f9c66ae37082d5cb6" title="Renders a table with all GPIO pins." alt="" coords="221,5,395,61"/>
-<area shape="rect" id="node4" href="$classzero__mate_1_1gui_1_1CGPIO__Window.html#a8ce2c10cab6d91789adc071291c9a5be" title="Renders GPIO pins (IGUI_Window interface)." alt="" coords="5,13,173,54"/>
+<area shape="rect" id="Node000001" title="Returns the current state of the pin." alt="" coords="691,41,863,96"/>
+<area shape="rect" id="Node000002" href="$classzero__mate_1_1peripheral_1_1CGPIO__Manager.html#a8ff64f4f3cdf0a19f5922ae80423a476" title="Returns the current state of a given pin." alt="" coords="455,5,631,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="677,56,630,49,631,44,678,51"/>
+<area shape="rect" id="Node000003" href="$classzero__mate_1_1gui_1_1CGPIO__Window.html#aeeb6f57b70b2367e666550cb69bd5d13" title="Renders information about a single GPIO pin (table row)." alt="" coords="443,85,643,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="678,87,643,92,643,87,677,81"/>
+<area shape="rect" id="Node000004" href="$classzero__mate_1_1gui_1_1CGPIO__Window.html#ad1affc13af41a19f9c66ae37082d5cb6" title="Renders a table with all GPIO pins." alt="" coords="221,77,395,132"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="429,107,395,107,395,102,429,102"/>
+<area shape="rect" id="Node000005" href="$classzero__mate_1_1gui_1_1CGPIO__Window.html#a8ce2c10cab6d91789adc071291c9a5be" title="Renders GPIO pins (IGUI_Window interface)." alt="" coords="5,85,173,125"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="208,107,174,107,174,102,208,102"/>
 </map>

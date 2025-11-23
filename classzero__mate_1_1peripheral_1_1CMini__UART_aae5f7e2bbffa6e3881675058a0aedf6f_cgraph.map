@@ -1,31 +1,65 @@
 <map id="zero_mate::peripheral::CMini_UART::Increment_Passed_Cycles" name="zero_mate::peripheral::CMini_UART::Increment_Passed_Cycles">
-<area shape="rect" id="node1" title="Updates the number of passed CPU cycles (forwarded from the AUX peripheral)." alt="" coords="5,129,188,185"/>
-<area shape="rect" id="node2" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a3ab953c18059ccd52099be9bb7b6edac" title="Returns the set up baud rate." alt="" coords="236,92,415,148"/>
-<area shape="rect" id="node3" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a3b75064597a5fbfe9c4c7d1f2e0c7e5f" title="Updates the state machines (transmission/reception)." alt="" coords="243,173,408,214"/>
-<area shape="rect" id="node4" href="$classzero__mate_1_1peripheral_1_1CAUX.html#ac1f5c58dd33c9d094f56da234d812ca0" title="Returns information about whether an auxiliary peripheral is enabled or not." alt="" coords="474,107,639,149"/>
-<area shape="rect" id="node5" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a6b04378225c55c43c00805cb5bdb99b3" title="Updates the reception state machines." alt="" coords="463,173,651,214"/>
-<area shape="rect" id="node20" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a39f26f9ac5a5cb08b2a292f5c6fab6db" title="Updates the transmission state machine." alt="" coords="463,493,650,534"/>
-<area shape="rect" id="node6" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a2a71009ed1f6227341dad8926bd73d81" title="Returns information about whether the receiver is enabled or not." alt="" coords="713,85,903,141"/>
-<area shape="rect" id="node7" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a50ba19a573540915346f49f559f8d595" title="Receives another bit of the current payload (actual data)." alt="" coords="703,325,913,381"/>
-<area shape="rect" id="node10" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a5c52c4391c9796abe9e33d0b672af4e0" title="Receives a start bit." alt="" coords="703,5,913,61"/>
-<area shape="rect" id="node11" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#af0ac73a2cea4c4fb61673803f60cf9e6" title="Receives a stop bit." alt="" coords="703,165,913,221"/>
-<area shape="rect" id="node8" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a2f29b39f721b4ae5acf81f61ab210325" title="Returns the length of payload (7 or 8 bits)." alt="" coords="973,408,1149,464"/>
-<area shape="rect" id="node9" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a4e01dd26b71c9c13ec8a81510cbf2450" title="Returns the data length from a given enumeration." alt="" coords="973,328,1149,384"/>
-<area shape="rect" id="node12" href="$classzero__mate_1_1utils_1_1CLogging__System.html#a57ed77e1a5cf822cea532cc5e05c3f60" title="Logs an error message via all registered loggers." alt="" coords="1455,306,1649,347"/>
-<area shape="rect" id="node17" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#aafdd369ea20fb588fdba59b98e20b3b8" title="Returns information about a receive interrupt is enabled." alt="" coords="967,51,1154,107"/>
-<area shape="rect" id="node18" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a8711d81118c89d5174a68d5b63ad3fac" title="Triggers an interrupt." alt="" coords="965,182,1156,223"/>
-<area shape="rect" id="node13" href="$classzero__mate_1_1utils_1_1CLogging__System.html#a71ed11c796553cbe8fd99773406a1060" title="Creates a formatted message to be logged." alt="" coords="1697,261,1900,317"/>
-<area shape="rect" id="node16" href="$classzero__mate_1_1utils_1_1CLogging__System.html#ad371c67ef65763966ccf9291002e86f3" title="Extract the filename from a given location within the source files." alt="" coords="1699,342,1898,383"/>
-<area shape="rect" id="node14" href="$classzero__mate_1_1utils_1_1CLogging__System.html#aa70c102c805079042ffea2a6f2a5ad64" title="Formats a given timestamp." alt="" coords="1948,237,2161,278"/>
-<area shape="rect" id="node15" href="$classzero__mate_1_1utils_1_1CLogging__System.html#ae3ca637537dde05e0b9119145c840331" title="Returns the current timestamp that will be used in a log message." alt="" coords="1957,302,2152,343"/>
-<area shape="rect" id="node19" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#aeedc743fe9b70dfb0019b775e2ea714a" title="Sets the type of a pending IRQ in the IIR register." alt="" coords="1207,181,1403,237"/>
-<area shape="rect" id="node21" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a2786f867a05087fc463657262594db71" title="Returns information about whether the transmission FIFO is empty or not." alt="" coords="699,645,917,701"/>
-<area shape="rect" id="node22" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a968340fbf2802af5178531146bca03c8" title="Returns information about whether the transmitter is enabled or not." alt="" coords="704,725,912,781"/>
-<area shape="rect" id="node23" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#af791add34c2efc17007de9d20185b24d" title="Resets transmission (end of the current UART frame)." alt="" coords="711,245,905,301"/>
-<area shape="rect" id="node25" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a2c1cebe25a3de866fb30387c9d3e1093" title="Sends another bit of the current payload (actual data)." alt="" coords="713,405,903,461"/>
-<area shape="rect" id="node28" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a8af3940e255317e7282402dce11c2d33" title="Sends a start bit." alt="" coords="713,565,903,621"/>
-<area shape="rect" id="node29" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#ad15628b6f928101a1844704a58b11cdb" title="Sends a stop bit." alt="" coords="713,485,903,541"/>
-<area shape="rect" id="node24" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a1e54d90a036d327e36d06a74be1595c3" title="Returns information about a transmit interrupt is enabled." alt="" coords="965,248,1156,304"/>
-<area shape="rect" id="node26" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#aa97db5d47b819acd85beda1dc91cb355" title="Sets the state of the TX pin." alt="" coords="967,490,1155,531"/>
-<area shape="rect" id="node27" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a9243af4f42d118a598a00c0f79d366e1" title="Sets the state of a given GPIO pin." alt="" coords="1204,375,1407,417"/>
+<area shape="rect" id="Node000001" title="Updates the number of passed CPU cycles (forwarded from the AUX peripheral)." alt="" coords="5,127,188,181"/>
+<area shape="rect" id="Node000002" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a3ab953c18059ccd52099be9bb7b6edac" title="Returns the set up baud rate." alt="" coords="236,91,415,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,137,222,132,223,137,189,142"/>
+<area shape="rect" id="Node000003" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a3b75064597a5fbfe9c4c7d1f2e0c7e5f" title="Updates the state machines (transmission/reception)." alt="" coords="243,170,408,210"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,166,230,172,229,178,188,171"/>
+<area shape="rect" id="Node000004" href="$classzero__mate_1_1peripheral_1_1CAUX.html#ac1f5c58dd33c9d094f56da234d812ca0" title="Returns information about whether an auxiliary peripheral is enabled or not." alt="" coords="474,106,639,146"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="398,167,470,147,472,152,399,172"/>
+<area shape="rect" id="Node000005" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a6b04378225c55c43c00805cb5bdb99b3" title="Updates the reception state machines." alt="" coords="463,170,651,210"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="409,187,449,187,449,193,409,193"/>
+<area shape="rect" id="Node000020" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a39f26f9ac5a5cb08b2a292f5c6fab6db" title="Updates the transmission state machine." alt="" coords="463,485,650,525"/>
+<area shape="poly" id="edge19_Node000003_Node000020" title=" " alt="" coords="343,209,535,472,530,475,339,212"/>
+<area shape="rect" id="Node000006" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a2a71009ed1f6227341dad8926bd73d81" title="Returns information about whether the receiver is enabled or not." alt="" coords="713,84,903,139"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="621,167,706,140,708,145,622,172"/>
+<area shape="rect" id="Node000007" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a50ba19a573540915346f49f559f8d595" title="Receives another bit of the current payload (actual data)." alt="" coords="703,320,913,375"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="580,208,632,256,665,282,700,305,712,312,710,316,697,310,662,286,628,260,576,212"/>
+<area shape="rect" id="Node000010" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a5c52c4391c9796abe9e33d0b672af4e0" title="Receives a start bit." alt="" coords="703,5,913,60"/>
+<area shape="poly" id="edge9_Node000005_Node000010" title=" " alt="" coords="631,168,649,156,665,135,672,114,679,92,697,69,702,66,705,70,701,73,684,94,677,116,670,138,652,160,634,172"/>
+<area shape="rect" id="Node000011" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#af0ac73a2cea4c4fb61673803f60cf9e6" title="Receives a stop bit." alt="" coords="703,163,913,217"/>
+<area shape="poly" id="edge10_Node000005_Node000011" title=" " alt="" coords="651,187,689,187,689,193,651,193"/>
+<area shape="rect" id="Node000008" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a2f29b39f721b4ae5acf81f61ab210325" title="Returns the length of payload (7 or 8 bits)." alt="" coords="973,401,1149,456"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="894,372,963,394,961,399,893,377"/>
+<area shape="rect" id="Node000009" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a4e01dd26b71c9c13ec8a81510cbf2450" title="Returns the data length from a given enumeration." alt="" coords="973,323,1149,377"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="914,346,959,346,959,352,914,351"/>
+<area shape="rect" id="Node000012" href="$classzero__mate_1_1utils_1_1CLogging__System.html#a57ed77e1a5cf822cea532cc5e05c3f60" title="Logs an error message via all registered loggers." alt="" coords="1455,302,1649,342"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="901,160,1008,138,1071,129,1137,124,1206,123,1275,129,1343,143,1408,165,1449,190,1484,222,1513,257,1534,288,1530,291,1508,260,1480,226,1445,194,1406,170,1342,148,1274,134,1206,129,1138,129,1072,134,1009,143,902,165"/>
+<area shape="rect" id="Node000017" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#aafdd369ea20fb588fdba59b98e20b3b8" title="Returns information about a receive interrupt is enabled." alt="" coords="967,49,1154,104"/>
+<area shape="poly" id="edge16_Node000011_Node000017" title=" " alt="" coords="887,160,916,148,964,121,989,108,992,113,967,126,919,152,889,165"/>
+<area shape="rect" id="Node000018" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a8711d81118c89d5174a68d5b63ad3fac" title="Triggers an interrupt." alt="" coords="965,179,1156,219"/>
+<area shape="poly" id="edge17_Node000011_Node000018" title=" " alt="" coords="914,191,952,193,952,198,913,197"/>
+<area shape="rect" id="Node000013" href="$classzero__mate_1_1utils_1_1CLogging__System.html#a71ed11c796553cbe8fd99773406a1060" title="Creates a formatted message to be logged." alt="" coords="1697,259,1900,313"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="1649,305,1683,300,1684,305,1650,310"/>
+<area shape="rect" id="Node000016" href="$classzero__mate_1_1utils_1_1CLogging__System.html#ad371c67ef65763966ccf9291002e86f3" title="Extract the filename from a given location within the source files." alt="" coords="1699,338,1898,378"/>
+<area shape="poly" id="edge15_Node000012_Node000016" title=" " alt="" coords="1650,334,1687,339,1686,344,1649,339"/>
+<area shape="rect" id="Node000014" href="$classzero__mate_1_1utils_1_1CLogging__System.html#aa70c102c805079042ffea2a6f2a5ad64" title="Formats a given timestamp." alt="" coords="1948,234,2161,274"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1900,271,1934,266,1935,272,1900,276"/>
+<area shape="rect" id="Node000015" href="$classzero__mate_1_1utils_1_1CLogging__System.html#ae3ca637537dde05e0b9119145c840331" title="Returns the current timestamp that will be used in a log message." alt="" coords="1957,298,2152,338"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="1900,296,1944,302,1944,307,1900,301"/>
+<area shape="rect" id="Node000019" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#aeedc743fe9b70dfb0019b775e2ea714a" title="Sets the type of a pending IRQ in the IIR register." alt="" coords="1207,180,1403,235"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="1156,200,1194,201,1194,206,1156,205"/>
+<area shape="rect" id="Node000021" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a2786f867a05087fc463657262594db71" title="Returns information about whether the transmission FIFO is empty or not." alt="" coords="699,635,917,689"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="580,523,632,571,665,597,700,620,712,626,710,631,697,624,662,601,628,575,576,527"/>
+<area shape="rect" id="Node000022" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a968340fbf2802af5178531146bca03c8" title="Returns information about whether the transmitter is enabled or not." alt="" coords="704,713,912,768"/>
+<area shape="poly" id="edge21_Node000020_Node000022" title=" " alt="" coords="570,524,589,561,618,608,655,657,700,700,706,704,703,708,697,704,651,661,614,611,584,564,565,526"/>
+<area shape="rect" id="Node000023" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#af791add34c2efc17007de9d20185b24d" title="Resets transmission (end of the current UART frame)." alt="" coords="711,241,905,296"/>
+<area shape="poly" id="edge22_Node000020_Node000023" title=" " alt="" coords="565,483,584,445,614,398,651,348,697,305,703,301,706,305,700,309,655,352,618,401,589,448,570,485"/>
+<area shape="rect" id="Node000025" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a2c1cebe25a3de866fb30387c9d3e1093" title="Sends another bit of the current payload (actual data)." alt="" coords="713,399,903,453"/>
+<area shape="poly" id="edge25_Node000020_Node000025" title=" " alt="" coords="621,482,706,455,708,460,622,487"/>
+<area shape="rect" id="Node000028" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a8af3940e255317e7282402dce11c2d33" title="Sends a start bit." alt="" coords="713,556,903,611"/>
+<area shape="poly" id="edge31_Node000020_Node000028" title=" " alt="" coords="622,522,708,549,706,554,621,527"/>
+<area shape="rect" id="Node000029" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#ad15628b6f928101a1844704a58b11cdb" title="Sends a stop bit." alt="" coords="713,477,903,532"/>
+<area shape="poly" id="edge33_Node000020_Node000029" title=" " alt="" coords="650,502,699,502,699,507,650,507"/>
+<area shape="poly" id="edge24_Node000023_Node000018" title=" " alt="" coords="905,239,973,220,974,226,906,245"/>
+<area shape="rect" id="Node000024" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a1e54d90a036d327e36d06a74be1595c3" title="Returns information about a transmit interrupt is enabled." alt="" coords="965,244,1156,299"/>
+<area shape="poly" id="edge23_Node000023_Node000024" title=" " alt="" coords="906,267,952,268,952,273,906,272"/>
+<area shape="poly" id="edge26_Node000025_Node000008" title=" " alt="" coords="904,424,959,425,959,430,903,430"/>
+<area shape="poly" id="edge27_Node000025_Node000009" title=" " alt="" coords="899,396,959,378,960,383,900,401"/>
+<area shape="rect" id="Node000026" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#aa97db5d47b819acd85beda1dc91cb355" title="Sets the state of the TX pin." alt="" coords="967,482,1155,522"/>
+<area shape="poly" id="edge28_Node000025_Node000026" title=" " alt="" coords="900,451,982,476,980,481,899,456"/>
+<area shape="rect" id="Node000027" href="$classzero__mate_1_1peripheral_1_1CMini__UART.html#a9243af4f42d118a598a00c0f79d366e1" title="Sets the state of a given GPIO pin." alt="" coords="1204,370,1407,410"/>
+<area shape="poly" id="edge29_Node000026_Node000027" title=" " alt="" coords="1119,479,1155,465,1256,414,1258,419,1157,470,1121,484"/>
+<area shape="poly" id="edge30_Node000027_Node000012" title=" " alt="" coords="1378,367,1465,343,1467,348,1379,373"/>
+<area shape="poly" id="edge32_Node000028_Node000026" title=" " alt="" coords="893,553,984,524,986,529,894,558"/>
+<area shape="poly" id="edge34_Node000029_Node000026" title=" " alt="" coords="903,501,953,500,953,506,904,506"/>
 </map>

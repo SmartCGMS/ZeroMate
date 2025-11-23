@@ -45,7 +45,7 @@ var NAVTREE =
         [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
+        [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -63,14 +63,21 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "alu_8cpp.html",
-"classzero__mate_1_1arm1176jzf__s_1_1CCPU__Core.html#afeea0a05cdda26114d6e03102f2d3a78",
-"classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CMultiply__Long.html#abaa07cd8dd6b2f457b9e559e42fc582c",
-"classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CCP__Data__Processing__Inst.html#a49f8f559ae22b85c74611ff2f595207ba88183b946cc5f0e8c96b2e66e1c74a7e",
-"classzero__mate_1_1gui_1_1CCP10__Window.html#aab3255e4d9f0cf28b018d18887a3100f",
-"classzero__mate_1_1peripheral_1_1CBSC.html#a542b29d1857d7d9927bc95355bb7541a",
-"classzero__mate_1_1peripheral_1_1CMini__UART.html#ab5d2e9caf71f101101ef1bb75d69d94f",
-"functions_func_t.html",
-"peripheral_8hpp_source.html"
+"classzero__mate_1_1arm1176jzf__s_1_1CCPU__Context.html#aa740f9219bb413d707ac72f373e60d3a",
+"classzero__mate_1_1arm1176jzf__s_1_1exceptions_1_1CSoftware__Interrupt.html#a8fce2fe1700ce2ebbf65ca33d5ee97f8",
+"classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CExtend.html#a83eca2d609f9bc462ff85362e974a97da37c721cf7b39941d068e3434e43c2256",
+"classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CRFE.html#aac382e9e8d096c16007809ffe28f4c82",
+"classzero__mate_1_1coprocessor_1_1ICoprocessor.html#ae7b875b62fc669d82d9d13c420c3d42a",
+"classzero__mate_1_1coprocessor_1_1cp10_1_1isa_1_1CCP__Register__Transfer__Inst.html#a98e36115f15fc9f2204dbe2596c8b5aea62235bbccfa317659855ea68064b7bd1",
+"classzero__mate_1_1coprocessor_1_1cp15_1_1CC3.html#a19fafbfa257760f447dcc14e747a8c23a77517d42260e63abbc5bbcdd7c880495",
+"classzero__mate_1_1gui_1_1CControl__Window.html#a8b6e19a1b2df84c201297cbdf0cba7be",
+"classzero__mate_1_1peripheral_1_1CARM__Timer.html#a011cb47b95a355e3fa9b874ddd42b19ba4d1c8263ba1036754f8db14a98f9f006",
+"classzero__mate_1_1peripheral_1_1CBSC.html#aec40cdcf9f04dabed279f6e856764409",
+"classzero__mate_1_1peripheral_1_1CInterrupt__Controller.html#a8c0ac5183c20a4955f29c2954a18ff29",
+"classzero__mate_1_1peripheral_1_1CRAM.html#ab231821e251900b34a6a8beddb6b90a5",
+"elf__loader_8hpp.html#a168db2218bf676ff9e0baa59f6fd6696abf878a4226d73b21fb754598f64da06f",
+"namespacezero__mate_1_1soc_1_1config.html#a3a90f6790e3d1d1681cee7d17de6c0ec",
+"structzero__mate_1_1peripheral_1_1CARM__Timer_1_1TControl__Register.html#a48c7564460880f2513ef340ded50ea88"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

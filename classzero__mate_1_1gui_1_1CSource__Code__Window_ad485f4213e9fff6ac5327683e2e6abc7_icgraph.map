@@ -1,7 +1,11 @@
 <map id="zero_mate::gui::CSource_Code_Window::Should_Code_Block_Be_Highlighted" name="zero_mate::gui::CSource_Code_Window::Should_Code_Block_Be_Highlighted">
-<area shape="rect" id="node1" title="Checks if the block of code which is currently being rendered should be highlighted or not." alt="" coords="1109,5,1321,61"/>
-<area shape="rect" id="node2" href="$classzero__mate_1_1gui_1_1CSource__Code__Window.html#af9afd629a519bacd1ce89faf8bbcdb9c" title="Renders a block of code (a single function/method)." alt="" coords="804,13,1061,54"/>
-<area shape="rect" id="node3" href="$classzero__mate_1_1gui_1_1CSource__Code__Window.html#a2088711954d53ac5f57e4a085770590f" title="Renders a single tab (ELF source file)." alt="" coords="553,13,756,54"/>
-<area shape="rect" id="node4" href="$classzero__mate_1_1gui_1_1CSource__Code__Window.html#a1f2a59252814f5b499c09bf2959741ad" title="Renders the disassembled contents of all ELF loaded into the emulator." alt="" coords="233,13,505,54"/>
-<area shape="rect" id="node5" href="$classzero__mate_1_1gui_1_1CSource__Code__Window.html#a24d4560bdcaf8c4fb0611de1b55ac687" title="Renders the window (IGUI_Window interface)." alt="" coords="5,13,185,54"/>
+<area shape="rect" id="Node000001" title="Checks if the block of code which is currently being rendered should be highlighted or not." alt="" coords="1109,5,1321,60"/>
+<area shape="rect" id="Node000002" href="$classzero__mate_1_1gui_1_1CSource__Code__Window.html#af9afd629a519bacd1ce89faf8bbcdb9c" title="Renders a block of code (a single function/method)." alt="" coords="804,13,1061,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1095,35,1061,35,1061,30,1095,30"/>
+<area shape="rect" id="Node000003" href="$classzero__mate_1_1gui_1_1CSource__Code__Window.html#a2088711954d53ac5f57e4a085770590f" title="Renders a single tab (ELF source file)." alt="" coords="553,13,756,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="790,35,756,35,756,30,790,30"/>
+<area shape="rect" id="Node000004" href="$classzero__mate_1_1gui_1_1CSource__Code__Window.html#a1f2a59252814f5b499c09bf2959741ad" title="Renders the disassembled contents of all ELF loaded into the emulator." alt="" coords="233,13,505,53"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="540,35,506,35,506,30,540,30"/>
+<area shape="rect" id="Node000005" href="$classzero__mate_1_1gui_1_1CSource__Code__Window.html#a24d4560bdcaf8c4fb0611de1b55ac687" title="Renders the window (IGUI_Window interface)." alt="" coords="5,13,185,53"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="220,35,186,35,186,30,220,30"/>
 </map>

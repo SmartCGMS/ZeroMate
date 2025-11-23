@@ -1,6 +1,9 @@
 <map id="zero_mate::arm1176jzf_s::CCPU_Core::Get_Second_Operand" name="zero_mate::arm1176jzf_s::CCPU_Core::Get_Second_Operand">
-<area shape="rect" id="node1" title="Calculates the second operand of a data processing instruction." alt="" coords="5,85,208,141"/>
-<area shape="rect" id="node2" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#a73d5c3a98f3fe036a1348d4d7485d0e9" title="Returns the index of the second operand register (Rm)." alt="" coords="256,5,444,61"/>
-<area shape="rect" id="node3" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#ae43548d291eecc463c519086e7527ff2" title="Returns the shift type used when constructing the second operand." alt="" coords="256,85,444,141"/>
-<area shape="rect" id="node4" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#a1dc73c441b156452b1467eaa5cab46f5" title="Returns the value of the I bit (bit 25 = immediate second operand)." alt="" coords="256,165,444,221"/>
+<area shape="rect" id="Node000001" title="Calculates the second operand of a data processing instruction." alt="" coords="5,84,208,139"/>
+<area shape="rect" id="Node000002" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#a73d5c3a98f3fe036a1348d4d7485d0e9" title="Returns the index of the second operand register (Rm)." alt="" coords="256,5,444,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,81,251,62,253,67,193,86"/>
+<area shape="rect" id="Node000003" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#ae43548d291eecc463c519086e7527ff2" title="Returns the shift type used when constructing the second operand." alt="" coords="256,84,444,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,109,242,109,242,114,208,114"/>
+<area shape="rect" id="Node000004" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#a1dc73c441b156452b1467eaa5cab46f5" title="Returns the value of the I bit (bit 25 = immediate second operand)." alt="" coords="256,163,444,217"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="193,136,253,156,251,161,191,141"/>
 </map>

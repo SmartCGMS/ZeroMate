@@ -1,12 +1,23 @@
 <map id="src/core/peripherals/auxiliary/mini_uart.hpp" name="src/core/peripherals/auxiliary/mini_uart.hpp">
-<area shape="rect" id="node1" title="This file defines the Mini UART auxiliary peripheral used in BCM2835." alt="" coords="103,5,281,47"/>
-<area shape="rect" id="node2" href="$auxiliary_8hpp.html" title=" " alt="" coords="205,95,376,136"/>
-<area shape="rect" id="node4" href="$mini__uart_8cpp.html" title="This file implements the Mini UART auxiliary peripheral used in BCM2835." alt="" coords="5,184,181,225"/>
-<area shape="rect" id="node3" href="$auxiliary_8cpp.html" title=" " alt="" coords="206,184,375,225"/>
-<area shape="rect" id="node5" href="$soc_8hpp.html" title=" " alt="" coords="399,191,526,218"/>
-<area shape="rect" id="node9" href="$aux__window_8hpp.html" title="This file defines a window that visualizes the auxiliaries (UART1 &amp; SPI1, and SPI2) used in BCM2835." alt="" coords="551,184,753,225"/>
-<area shape="rect" id="node6" href="$soc_8cpp.html" title=" " alt="" coords="259,281,386,307"/>
-<area shape="rect" id="node7" href="$gui_8cpp.html" title="This file implements the main GUI entry function that takes care of creating and rendering all window..." alt="" coords="539,281,655,307"/>
-<area shape="rect" id="node8" href="$main_8cpp.html" title="This file defines and implements the main function of the application." alt="" coords="410,281,515,307"/>
-<area shape="rect" id="node10" href="$aux__window_8cpp.html" title="This file implements a window that visualizes the auxiliaries (UART1 &amp; SPI1, and SPI2) used in BCM283..." alt="" coords="680,273,883,315"/>
+<area shape="rect" id="Node000001" title="This file defines the Mini UART auxiliary peripheral used in BCM2835." alt="" coords="103,5,281,45"/>
+<area shape="rect" id="Node000002" href="$auxiliary_8hpp.html" title=" " alt="" coords="205,93,376,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,52,271,91,267,95,222,56"/>
+<area shape="rect" id="Node000004" href="$mini__uart_8cpp.html" title="This file implements the Mini UART auxiliary peripheral used in BCM2835." alt="" coords="5,181,181,221"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="177,59,106,182,102,180,172,56"/>
+<area shape="rect" id="Node000003" href="$auxiliary_8cpp.html" title=" " alt="" coords="206,181,375,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="293,147,293,181,288,181,288,147"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="236,141,138,184,135,179,234,136"/>
+<area shape="rect" id="Node000005" href="$soc_8hpp.html" title=" " alt="" coords="399,189,526,214"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="342,137,441,186,439,191,339,142"/>
+<area shape="rect" id="Node000009" href="$aux__window_8hpp.html" title="This file defines a window that visualizes the auxiliaries (UART1 &amp; SPI1, and SPI2) used in BCM2835." alt="" coords="551,181,753,221"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="384,134,574,179,572,184,382,139"/>
+<area shape="rect" id="Node000006" href="$soc_8cpp.html" title=" " alt="" coords="259,277,386,302"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="433,224,343,279,340,274,431,219"/>
+<area shape="rect" id="Node000007" href="$gui_8cpp.html" title="This file implements the main GUI entry function that takes care of creating and rendering all window..." alt="" coords="539,277,655,302"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="494,219,580,274,578,279,491,224"/>
+<area shape="rect" id="Node000008" href="$main_8cpp.html" title="This file defines and implements the main function of the application." alt="" coords="410,277,515,302"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="465,228,465,276,460,276,460,228"/>
+<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="635,234,607,278,603,275,630,232"/>
+<area shape="rect" id="Node000010" href="$aux__window_8cpp.html" title="This file implements a window that visualizes the auxiliaries (UART1 &amp; SPI1, and SPI2) used in BCM283..." alt="" coords="680,269,883,309"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="694,227,754,267,751,271,691,232"/>
 </map>

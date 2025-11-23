@@ -1,4 +1,5 @@
 <map id="zero_mate::arm1176jzf_s::exceptions::CCPU_Exception" name="zero_mate::arm1176jzf_s::exceptions::CCPU_Exception">
-<area shape="rect" id="node1" title="This class represents a parent class for all the CPU exceptions." alt="" coords="5,80,179,136"/>
-<area shape="rect" id="node2" title=" " alt="" coords="23,5,161,32"/>
+<area shape="rect" id="Node000001" title="This class represents a parent class for all the CPU exceptions." alt="" coords="5,79,179,133"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="23,5,161,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,44,95,79,89,79,89,44"/>
 </map>

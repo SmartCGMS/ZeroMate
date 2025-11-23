@@ -1,4 +1,5 @@
 <map id="src/core/arm1176jzf_s/isa/coprocessor_data_transfer.hpp" name="src/core/arm1176jzf_s/isa/coprocessor_data_transfer.hpp">
-<area shape="rect" id="node1" title="This file defines a coprocessor data transfer (LDC, STC)." alt="" coords="5,5,183,61"/>
-<area shape="rect" id="node2" href="$instruction_8hpp.html" title="This file defines the interface of a general ARM instruction." alt="" coords="35,109,153,136"/>
+<area shape="rect" id="Node000001" title="This file defines a coprocessor data transfer (LDC, STC)." alt="" coords="5,5,183,60"/>
+<area shape="rect" id="Node000002" href="$instruction_8hpp.html" title="This file defines the interface of a general ARM instruction." alt="" coords="35,108,153,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,60,97,94,91,94,91,60"/>
 </map>

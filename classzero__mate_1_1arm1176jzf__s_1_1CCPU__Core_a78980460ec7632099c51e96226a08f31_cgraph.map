@@ -1,4 +1,7 @@
 <map id="zero_mate::arm1176jzf_s::CCPU_Core::Determine_CPU_Mode" name="zero_mate::arm1176jzf_s::CCPU_Core::Determine_CPU_Mode">
-<area shape="rect" id="node1" title="Determines the mode of the CPU that should be used in a block data transfer instruction." alt="" coords="5,5,200,61"/>
-<area shape="rect" id="node2" href="$classzero__mate_1_1arm1176jzf__s_1_1CCPU__Context.html#aa740f9219bb413d707ac72f373e60d3a" title="Returns the current mode of the CPU." alt="" coords="248,5,421,61"/>
+<area shape="rect" id="Node000001" title="Determines the mode of the CPU that should be used in a block data transfer instruction." alt="" coords="5,41,200,96"/>
+<area shape="rect" id="Node000002" href="$classzero__mate_1_1arm1176jzf__s_1_1CCPU__Context.html#aa740f9219bb413d707ac72f373e60d3a" title="Returns the current mode of the CPU." alt="" coords="248,5,421,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,51,234,46,235,51,201,56"/>
+<area shape="rect" id="Node000003" href="$namespacezero__mate_1_1utils_1_1math.html#af7d93c996dab2ff1b91c5a399dcfe29f" title="Tests whether a bit is set in the given integral variable." alt="" coords="250,85,419,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,81,237,87,236,92,200,86"/>
 </map>

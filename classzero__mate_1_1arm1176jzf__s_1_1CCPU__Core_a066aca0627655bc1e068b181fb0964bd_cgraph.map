@@ -1,4 +1,7 @@
 <map id="zero_mate::arm1176jzf_s::CCPU_Core::Perform_Halfword_Data_Transfer_Read" name="zero_mate::arm1176jzf_s::CCPU_Core::Perform_Halfword_Data_Transfer_Read">
-<area shape="rect" id="node1" title="Performs a halfword data read from a given address." alt="" coords="5,5,229,61"/>
-<area shape="rect" id="node2" href="$namespacezero__mate_1_1utils_1_1math.html#afda20fa50949a9cd3a80f811b0085221" title="Sign&#45;extends the given integral value." alt="" coords="277,13,447,54"/>
+<area shape="rect" id="Node000001" title="Performs a halfword data read from a given address." alt="" coords="5,5,229,60"/>
+<area shape="rect" id="Node000002" href="$namespacezero__mate_1_1utils_1_1math.html#afda20fa50949a9cd3a80f811b0085221" title="Sign&#45;extends the given integral value." alt="" coords="277,13,447,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,30,264,30,264,35,229,35"/>
+<area shape="rect" id="Node000003" href="$namespacezero__mate_1_1utils_1_1math.html#af7d93c996dab2ff1b91c5a399dcfe29f" title="Tests whether a bit is set in the given integral variable." alt="" coords="495,13,664,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="447,30,481,30,481,35,447,35"/>
 </map>

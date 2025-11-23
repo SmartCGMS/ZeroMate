@@ -1,4 +1,5 @@
 <map id="zero_mate::peripheral::CInterrupt_Controller::Is_IRQ_Source_Enabled" name="zero_mate::peripheral::CInterrupt_Controller::Is_IRQ_Source_Enabled">
-<area shape="rect" id="node1" title="Checks whether an IRQ source is enabled or not." alt="" coords="220,5,401,61"/>
-<area shape="rect" id="node2" href="$classzero__mate_1_1peripheral_1_1CInterrupt__Controller.html#aa559a3a604ae1877cbbe749724d8a399" title="Notifies the interrupt controller about a pending interrupt triggered by an IRQ source." alt="" coords="5,5,172,61"/>
+<area shape="rect" id="Node000001" title="Checks whether an IRQ source is enabled or not." alt="" coords="220,5,401,60"/>
+<area shape="rect" id="Node000002" href="$classzero__mate_1_1peripheral_1_1CInterrupt__Controller.html#aa559a3a604ae1877cbbe749724d8a399" title="Notifies the interrupt controller about a pending interrupt triggered by an IRQ source." alt="" coords="5,5,172,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,35,172,35,172,30,206,30"/>
 </map>

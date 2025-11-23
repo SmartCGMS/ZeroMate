@@ -1,8 +1,8 @@
 var elf__loader_8hpp =
 [
-    [ "TText_Section_Record", "structzero__mate_1_1utils_1_1elf_1_1TText__Section__Record.html", "structzero__mate_1_1utils_1_1elf_1_1TText__Section__Record" ],
-    [ "TStatus", "structzero__mate_1_1utils_1_1elf_1_1TStatus.html", "structzero__mate_1_1utils_1_1elf_1_1TStatus" ],
-    [ "TSource_Code", "structzero__mate_1_1utils_1_1elf_1_1TSource__Code.html", "structzero__mate_1_1utils_1_1elf_1_1TSource__Code" ],
+    [ "zero_mate::utils::elf::TText_Section_Record", "structzero__mate_1_1utils_1_1elf_1_1TText__Section__Record.html", "structzero__mate_1_1utils_1_1elf_1_1TText__Section__Record" ],
+    [ "zero_mate::utils::elf::TStatus", "structzero__mate_1_1utils_1_1elf_1_1TStatus.html", "structzero__mate_1_1utils_1_1elf_1_1TStatus" ],
+    [ "zero_mate::utils::elf::TSource_Code", "structzero__mate_1_1utils_1_1elf_1_1TSource__Code.html", "structzero__mate_1_1utils_1_1elf_1_1TSource__Code" ],
     [ "Source_Codes_t", "elf__loader_8hpp.html#acfb339d8dd3c960598ed8dd03235f426", null ],
     [ "NError_Code", "elf__loader_8hpp.html#a168db2218bf676ff9e0baa59f6fd6696", [
       [ "OK", "elf__loader_8hpp.html#a168db2218bf676ff9e0baa59f6fd6696ae0aa021e21dddbd6d8cecec71e9cf564", null ],

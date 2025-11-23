@@ -1,52 +1,136 @@
 <map id="src/core/peripherals/peripheral.hpp" name="src/core/peripherals/peripheral.hpp">
-<area shape="rect" id="node1" title="This file defines an interface for a memory&#45;mapped peripheral." alt="" coords="2414,5,2565,47"/>
-<area shape="rect" id="node2" href="$bus_8hpp.html" title="This file defines an interface the CPU uses to access different memory&#45;mapped peripherals." alt="" coords="1129,102,1257,129"/>
-<area shape="rect" id="node11" href="$control__window_8hpp.html" title="This file defines a window that allows the user to control CPU execution." alt="" coords="621,363,795,404"/>
-<area shape="rect" id="node25" href="$arm__timer_8hpp.html" title="This file defines the ARM timer used in BCM2835." alt="" coords="1767,184,1918,225"/>
-<area shape="rect" id="node29" href="$auxiliary_8hpp.html" title=" " alt="" coords="2855,273,3025,315"/>
-<area shape="rect" id="node34" href="$bsc_8hpp.html" title="This file defines the BSC peripheral used in BCM2835." alt="" coords="2125,273,2275,315"/>
-<area shape="rect" id="node36" href="$gpio_8hpp.html" title="This file defines the GPIO controller used in BCM2835." alt="" coords="2506,184,2657,225"/>
-<area shape="rect" id="node40" href="$interrupt__controller_8hpp.html" title="This file defines the interrupt controller used in BCM2835." alt="" coords="2280,95,2459,136"/>
-<area shape="rect" id="node43" href="$monitor_8hpp.html" title="This file defines an 80x25 8&#45;bit memory&#45;mapped monitor which is used as a debug output." alt="" coords="3206,273,3357,315"/>
-<area shape="rect" id="node46" href="$ram_8hpp.html" title="This file defines the RAM (random access memory) used in BCM2835." alt="" coords="3573,273,3723,315"/>
-<area shape="rect" id="node49" href="$trng_8hpp.html" title="This file defines the TRNG (random number generator) used in BCM2835." alt="" coords="2742,95,2893,136"/>
-<area shape="rect" id="node3" href="$core_8hpp.html" title="This file defines a class that represents a CPU core (arm1176jzf_s)." alt="" coords="982,273,1133,315"/>
-<area shape="rect" id="node7" href="$soc_8hpp.html" title=" " alt="" coords="2269,370,2395,397"/>
-<area shape="rect" id="node16" href="$top__bar__menu_8hpp.html" title=" " alt="" coords="446,363,597,404"/>
-<area shape="rect" id="node18" href="$mmu_8hpp.html" title="This file defines the MMU (memory management unit) of the CPU." alt="" coords="1225,184,1375,225"/>
-<area shape="rect" id="node20" href="$bus_8cpp.html" title="This file implements the interface defined in bus.hpp." alt="" coords="1022,191,1149,218"/>
-<area shape="rect" id="node21" href="$cp10_8hpp.html" title="This file defines coprocessor CP10 (single&#45;precision FPU)." alt="" coords="1332,273,1495,315"/>
-<area shape="rect" id="node23" href="$elf__loader_8hpp.html" title="This file defines the functionality of an ELF loader." alt="" coords="250,281,419,307"/>
-<area shape="rect" id="node4" href="$core_8cpp.html" title="This file implements the CCPU_Core class defined in core.hpp." alt="" coords="819,363,970,404"/>
-<area shape="rect" id="node5" href="$coprocessor_8cpp.html" title="This file implements the common functionality of a general interface of a coprocessor." alt="" coords="995,363,1157,404"/>
-<area shape="rect" id="node6" href="$cp10_8cpp.html" title="This file implements coprocessor CP10 (single&#45;precision FPU)." alt="" coords="1392,363,1555,404"/>
-<area shape="rect" id="node13" href="$registers__window_8hpp.html" title="This file defines a window that displays the contents of all CPU registers." alt="" coords="1181,363,1368,404"/>
-<area shape="rect" id="node14" href="$source__code__window_8hpp.html" title="This file defines a window that displays loaded ELF files (disassembled instructions of the source co..." alt="" coords="248,363,421,404"/>
-<area shape="rect" id="node8" href="$soc_8cpp.html" title=" " alt="" coords="2198,459,2325,486"/>
-<area shape="rect" id="node9" href="$gui_8cpp.html" title="This file implements the main GUI entry function that takes care of creating and rendering all window..." alt="" coords="1973,459,2089,486"/>
-<area shape="rect" id="node10" href="$main_8cpp.html" title="This file defines and implements the main function of the application." alt="" coords="2349,459,2454,486"/>
-<area shape="rect" id="node12" href="$control__window_8cpp.html" title="This file implements a window that allows the user to control CPU execution." alt="" coords="621,452,795,493"/>
-<area shape="rect" id="node15" href="$source__code__window_8cpp.html" title="This file implements a window that displays loaded ELF files (disassembled instructions of the source..." alt="" coords="187,452,360,493"/>
-<area shape="rect" id="node17" href="$top__bar__menu_8cpp.html" title=" " alt="" coords="446,452,597,493"/>
-<area shape="rect" id="node19" href="$mmu_8cpp.html" title="This file implements the MMU (memory management unit) of the CPU." alt="" coords="1157,273,1307,315"/>
-<area shape="rect" id="node22" href="$cp10__window_8hpp.html" title="This file defines a window that displays data (information) related to coprocessor 10 (FPU)." alt="" coords="1579,363,1741,404"/>
-<area shape="rect" id="node24" href="$elf__loader_8cpp.html" title="This file implements the functionality of an ELF loader defined in elf_loader.hpp." alt="" coords="5,370,173,397"/>
-<area shape="rect" id="node26" href="$arm__timer_8cpp.html" title="This file implements the ARM timer used in BCM2835 as defined in arm_timer.hpp." alt="" coords="1621,273,1771,315"/>
-<area shape="rect" id="node27" href="$arm__timer__window_8hpp.html" title="This file defines a window that visualizes the contents of the ARM timer registers." alt="" coords="1796,273,1999,315"/>
-<area shape="rect" id="node28" href="$arm__timer__window_8cpp.html" title="This file implements a window that visualizes the contents of the ARM timer registers." alt="" coords="1765,363,1968,404"/>
-<area shape="rect" id="node30" href="$auxiliary_8cpp.html" title=" " alt="" coords="2898,363,3067,404"/>
-<area shape="rect" id="node31" href="$mini__uart_8cpp.html" title="This file implements the Mini UART auxiliary peripheral used in BCM2835." alt="" coords="2697,363,2873,404"/>
-<area shape="rect" id="node32" href="$aux__window_8hpp.html" title="This file defines a window that visualizes the auxiliaries (UART1 &amp; SPI1, and SPI2) used in BCM2835." alt="" coords="3092,363,3295,404"/>
-<area shape="rect" id="node33" href="$aux__window_8cpp.html" title="This file implements a window that visualizes the auxiliaries (UART1 &amp; SPI1, and SPI2) used in BCM283..." alt="" coords="3092,452,3295,493"/>
-<area shape="rect" id="node35" href="$bsc_8cpp.html" title="This file implements the BSC peripheral used in BCM2835." alt="" coords="2094,363,2245,404"/>
-<area shape="rect" id="node37" href="$gpio_8cpp.html" title="This file implements the GPIO controller used in BCM2835 (defined in gpio.hpp)." alt="" coords="2578,273,2729,315"/>
-<area shape="rect" id="node38" href="$gpio__window_8hpp.html" title="This file defines a window that visualizes the states and information about GPIO pins." alt="" coords="2351,273,2553,315"/>
-<area shape="rect" id="node39" href="$gpio__window_8cpp.html" title="This file implements a window that visualizes the states and information about GPIO pins." alt="" coords="2471,363,2673,404"/>
-<area shape="rect" id="node41" href="$interrupt__controller_8cpp.html" title="This file implements the interrupt controller used in BCM2835 (defined in interrupt_controller...." alt="" coords="2253,184,2430,225"/>
-<area shape="rect" id="node42" href="$interrupt__controller__window_8hpp.html" title="This file defines a window that visualizes the interrupt controller IC." alt="" coords="1993,184,2228,225"/>
-<area shape="rect" id="node44" href="$monitor_8cpp.html" title="This file implements an 80x25 8&#45;bit memory&#45;mapped monitor which is used as a debug output." alt="" coords="3546,363,3697,404"/>
-<area shape="rect" id="node45" href="$monitor__window_8hpp.html" title="This file defines a window that visualizes the memory&#45;mapped debug monitor." alt="" coords="3319,363,3521,404"/>
-<area shape="rect" id="node47" href="$ram_8cpp.html" title="This file implements the RAM (random access memory) used in BCM2835." alt="" coords="3949,363,4099,404"/>
-<area shape="rect" id="node48" href="$ram__window_8hpp.html" title="This file defines a window that visualizes the contents of the RAM." alt="" coords="3721,363,3924,404"/>
-<area shape="rect" id="node50" href="$trng_8cpp.html" title="This file implements the TRNG (random number generator) used in BCM2835." alt="" coords="2855,184,3006,225"/>
+<area shape="rect" id="Node000001" title="This file defines an interface for a memory&#45;mapped peripheral." alt="" coords="2414,5,2565,45"/>
+<area shape="rect" id="Node000002" href="$bus_8hpp.html" title="This file defines an interface the CPU uses to access different memory&#45;mapped peripherals." alt="" coords="1129,101,1257,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2400,35,1258,110,1257,105,2400,30"/>
+<area shape="rect" id="Node000011" href="$control__window_8hpp.html" title="This file defines a window that allows the user to control CPU execution." alt="" coords="621,357,795,397"/>
+<area shape="poly" id="edge84_Node000001_Node000011" title=" " alt="" coords="2400,31,2097,37,1698,50,1329,69,1196,82,1118,96,1055,122,993,154,934,190,880,229,788,304,728,359,725,355,785,300,876,225,931,186,990,149,1052,117,1117,91,1195,76,1329,64,1697,45,2097,32,2400,25"/>
+<area shape="rect" id="Node000027" href="$arm__timer_8hpp.html" title="This file defines the ARM timer used in BCM2835." alt="" coords="1767,181,1918,221"/>
+<area shape="poly" id="edge38_Node000001_Node000027" title=" " alt="" coords="2401,32,2282,39,2148,51,2024,70,1975,82,1939,96,1912,114,1889,137,1855,183,1851,180,1885,134,1908,110,1936,91,1973,77,2023,64,2147,46,2282,34,2400,27"/>
+<area shape="rect" id="Node000031" href="$auxiliary_8hpp.html" title=" " alt="" coords="2855,269,3025,309"/>
+<area shape="poly" id="edge44_Node000001_Node000031" title=" " alt="" coords="2579,26,2651,31,2735,43,2822,62,2906,91,2945,107,2975,123,2999,145,3021,180,3027,201,3021,222,3001,250,2975,271,2972,267,2997,247,3016,220,3022,201,3016,182,2995,149,2972,128,2943,112,2904,96,2821,67,2734,48,2651,36,2578,31"/>
+<area shape="rect" id="Node000036" href="$bsc_8hpp.html" title="This file defines the BSC peripheral used in BCM2835." alt="" coords="2125,269,2275,309"/>
+<area shape="poly" id="edge51_Node000001_Node000036" title=" " alt="" coords="2401,43,2287,66,2161,97,2102,116,2051,136,2010,159,1984,183,1976,201,1983,220,2004,236,2039,250,2125,272,2124,277,2037,255,2002,240,1979,223,1971,201,1979,180,2007,155,2048,132,2100,111,2160,92,2286,60,2400,38"/>
+<area shape="rect" id="Node000038" href="$gpio_8hpp.html" title="This file defines the GPIO controller used in BCM2835." alt="" coords="2506,181,2657,221"/>
+<area shape="poly" id="edge54_Node000001_Node000038" title=" " alt="" coords="2508,56,2574,180,2569,182,2503,59"/>
+<area shape="rect" id="Node000042" href="$interrupt__controller_8hpp.html" title="This file defines the interrupt controller used in BCM2835." alt="" coords="2280,93,2459,133"/>
+<area shape="poly" id="edge62_Node000001_Node000042" title=" " alt="" coords="2453,56,2397,95,2394,91,2450,51"/>
+<area shape="rect" id="Node000046" href="$monitor_8hpp.html" title="This file defines an 80x25 8&#45;bit memory&#45;mapped monitor which is used as a debug output." alt="" coords="3206,269,3357,309"/>
+<area shape="poly" id="edge71_Node000001_Node000046" title=" " alt="" coords="2579,26,2662,31,2759,43,2863,62,2964,91,3054,131,3138,180,3209,229,3260,267,3257,271,3206,233,3136,185,3052,136,2962,96,2862,67,2759,48,2662,37,2579,31"/>
+<area shape="rect" id="Node000050" href="$ram_8hpp.html" title="This file defines the RAM (random access memory) used in BCM2835." alt="" coords="3573,269,3723,309"/>
+<area shape="poly" id="edge76_Node000001_Node000050" title=" " alt="" coords="2579,30,2784,51,2905,68,3025,91,3192,133,3355,182,3600,267,3598,272,3353,187,3191,138,3023,96,2904,74,2783,56,2579,36"/>
+<area shape="rect" id="Node000054" href="$trng_8hpp.html" title="This file defines the TRNG (random number generator) used in BCM2835." alt="" coords="2742,93,2893,133"/>
+<area shape="poly" id="edge81_Node000001_Node000054" title=" " alt="" coords="2575,46,2746,91,2745,96,2574,51"/>
+<area shape="rect" id="Node000003" href="$core_8hpp.html" title="This file defines a class that represents a CPU core (arm1176jzf_s)." alt="" coords="982,269,1133,309"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1116,125,1087,133,1058,144,1032,161,1012,183,1007,193,1005,204,1011,226,1024,248,1040,267,1036,271,1020,252,1006,228,1000,204,1001,191,1007,180,1029,157,1056,140,1085,127,1115,120"/>
+<area shape="rect" id="Node000007" href="$soc_8hpp.html" title=" " alt="" coords="2269,365,2395,390"/>
+<area shape="poly" id="edge31_Node000002_Node000007" title=" " alt="" coords="1260,127,1337,148,1417,179,1458,200,1488,219,1555,267,1582,290,1593,299,1610,307,1704,335,1785,349,1859,353,1928,350,2074,342,2159,343,2258,355,2293,362,2291,367,2257,360,2159,349,2074,347,1928,356,1859,358,1785,354,1703,340,1608,312,1591,303,1578,294,1552,271,1485,224,1455,204,1415,184,1335,153,1259,132"/>
+<area shape="rect" id="Node000017" href="$top__bar__menu_8hpp.html" title=" " alt="" coords="446,357,597,397"/>
+<area shape="poly" id="edge32_Node000002_Node000017" title=" " alt="" coords="1146,133,998,184,753,281,566,360,564,355,751,276,996,179,1144,128"/>
+<area shape="rect" id="Node000019" href="$mmu_8hpp.html" title="This file defines the MMU (memory management unit) of the CPU." alt="" coords="1225,181,1375,221"/>
+<area shape="poly" id="edge21_Node000002_Node000019" title=" " alt="" coords="1220,133,1278,179,1275,183,1217,137"/>
+<area shape="rect" id="Node000021" href="$bus_8cpp.html" title="This file implements the interface defined in bus.hpp." alt="" coords="1022,189,1149,214"/>
+<area shape="poly" id="edge25_Node000002_Node000021" title=" " alt="" coords="1170,137,1102,190,1098,186,1166,133"/>
+<area shape="rect" id="Node000022" href="$cp10_8hpp.html" title="This file defines coprocessor CP10 (single&#45;precision FPU)." alt="" coords="1332,269,1495,309"/>
+<area shape="poly" id="edge26_Node000002_Node000022" title=" " alt="" coords="1272,121,1334,141,1363,158,1389,180,1403,201,1411,225,1416,269,1411,270,1406,226,1398,203,1385,183,1360,162,1331,146,1270,126"/>
+<area shape="rect" id="Node000025" href="$elf__loader_8hpp.html" title="This file defines the functionality of an ELF loader." alt="" coords="250,277,419,302"/>
+<area shape="poly" id="edge33_Node000002_Node000025" title=" " alt="" coords="1124,131,392,279,391,274,1123,126"/>
+<area shape="rect" id="Node000004" href="$core_8cpp.html" title="This file implements the CCPU_Core class defined in core.hpp." alt="" coords="819,357,970,397"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1011,318,932,360,929,355,1008,313"/>
+<area shape="rect" id="Node000005" href="$coprocessor_8cpp.html" title="This file implements the common functionality of a general interface of a coprocessor." alt="" coords="995,357,1157,397"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="1067,322,1074,357,1069,358,1062,323"/>
+<area shape="rect" id="Node000006" href="$cp10_8cpp.html" title="This file implements coprocessor CP10 (single&#45;precision FPU)." alt="" coords="1392,357,1555,397"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="1147,307,1392,357,1391,362,1146,312"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="1147,307,1315,324,1459,330,1586,330,1704,327,1822,325,1948,326,2091,335,2258,355,2293,362,2292,367,2257,360,2090,340,1948,331,1822,330,1704,333,1586,336,1459,336,1315,329,1146,312"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="970,315,785,360,784,355,968,310"/>
+<area shape="rect" id="Node000013" href="$registers__window_8hpp.html" title="This file defines a window that displays the contents of all CPU registers." alt="" coords="1181,357,1368,397"/>
+<area shape="poly" id="edge13_Node000003_Node000013" title=" " alt="" coords="1119,312,1228,355,1226,360,1117,317"/>
+<area shape="rect" id="Node000015" href="$source__code__window_8hpp.html" title="This file defines a window that displays loaded ELF files (disassembled instructions of the source co..." alt="" coords="248,357,421,397"/>
+<area shape="poly" id="edge15_Node000003_Node000015" title=" " alt="" coords="968,301,727,324,434,360,422,362,421,356,433,355,726,318,968,295"/>
+<area shape="poly" id="edge18_Node000003_Node000017" title=" " alt="" coords="968,307,939,312,773,334,608,360,597,362,596,357,608,355,773,329,938,307,968,302"/>
+<area shape="rect" id="Node000008" href="$soc_8cpp.html" title=" " alt="" coords="2198,453,2325,478"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="2316,402,2273,454,2269,450,2312,399"/>
+<area shape="rect" id="Node000009" href="$gui_8cpp.html" title="This file implements the main GUI entry function that takes care of creating and rendering all window..." alt="" coords="1973,453,2089,478"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="2279,396,2072,455,2070,450,2278,391"/>
+<area shape="rect" id="Node000010" href="$main_8cpp.html" title="This file defines and implements the main function of the application." alt="" coords="2349,453,2454,478"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="2352,399,2394,450,2390,454,2348,403"/>
+<area shape="poly" id="edge11_Node000011_Node000009" title=" " alt="" coords="809,395,983,413,1158,428,1496,447,1781,457,1972,461,1972,466,1781,463,1496,453,1158,433,982,418,809,400"/>
+<area shape="rect" id="Node000012" href="$control__window_8cpp.html" title="This file implements a window that allows the user to control CPU execution." alt="" coords="621,445,795,485"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="711,411,711,445,705,445,705,411"/>
+<area shape="poly" id="edge14_Node000013_Node000009" title=" " alt="" coords="1382,395,1720,434,1973,457,1972,462,1720,439,1381,400"/>
+<area shape="poly" id="edge16_Node000015_Node000009" title=" " alt="" coords="435,395,667,417,902,434,1354,455,1730,462,1972,462,1972,467,1730,467,1354,460,902,440,667,423,435,400"/>
+<area shape="rect" id="Node000016" href="$source__code__window_8cpp.html" title="This file implements a window that displays loaded ELF files (disassembled instructions of the source..." alt="" coords="187,445,360,485"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="315,410,289,447,285,444,311,407"/>
+<area shape="poly" id="edge19_Node000017_Node000009" title=" " alt="" coords="611,395,815,417,1022,434,1420,455,1753,462,1972,462,1972,467,1753,467,1419,460,1021,440,814,423,610,400"/>
+<area shape="rect" id="Node000018" href="$top__bar__menu_8cpp.html" title=" " alt="" coords="446,445,597,485"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="524,411,524,445,519,445,519,411"/>
+<area shape="poly" id="edge22_Node000019_Node000003" title=" " alt="" coords="1235,228,1111,272,1110,267,1233,223"/>
+<area shape="poly" id="edge24_Node000019_Node000007" title=" " alt="" coords="1390,222,1449,242,1508,267,1525,278,1537,289,1548,298,1565,307,1666,336,1753,351,1831,354,1905,351,2061,341,2152,343,2258,355,2293,362,2291,367,2257,360,2152,348,2061,347,1906,356,1831,360,1752,356,1664,342,1563,312,1545,303,1533,293,1522,282,1505,272,1447,247,1388,228"/>
+<area shape="rect" id="Node000020" href="$mmu_8cpp.html" title="This file implements the MMU (memory management unit) of the CPU." alt="" coords="1157,269,1307,309"/>
+<area shape="poly" id="edge23_Node000019_Node000020" title=" " alt="" coords="1279,234,1249,271,1245,267,1274,231"/>
+<area shape="poly" id="edge27_Node000022_Node000006" title=" " alt="" coords="1437,319,1462,356,1458,359,1432,322"/>
+<area shape="poly" id="edge28_Node000022_Node000007" title=" " alt="" coords="1509,306,1514,307,1626,318,1722,324,1886,327,2049,331,2145,340,2258,355,2293,362,2291,367,2257,360,2145,345,2049,337,1886,332,1722,330,1626,324,1513,312,1508,311"/>
+<area shape="rect" id="Node000023" href="$cp10__window_8hpp.html" title="This file defines a window that displays data (information) related to coprocessor 10 (FPU)." alt="" coords="1579,357,1741,397"/>
+<area shape="poly" id="edge29_Node000022_Node000023" title=" " alt="" coords="1481,311,1607,355,1605,360,1480,316"/>
+<area shape="poly" id="edge30_Node000023_Node000009" title=" " alt="" coords="1755,398,1982,450,1981,455,1753,403"/>
+<area shape="poly" id="edge35_Node000025_Node000015" title=" " alt="" coords="337,316,337,357,332,357,332,316"/>
+<area shape="poly" id="edge34_Node000025_Node000016" title=" " alt="" coords="293,310,262,330,238,359,233,380,237,403,248,425,260,444,255,447,243,428,232,405,228,380,234,356,259,326,290,306"/>
+<area shape="poly" id="edge36_Node000025_Node000017" title=" " alt="" coords="373,305,481,355,479,360,371,310"/>
+<area shape="rect" id="Node000026" href="$elf__loader_8cpp.html" title="This file implements the functionality of an ELF loader defined in elf_loader.hpp." alt="" coords="5,365,173,390"/>
+<area shape="poly" id="edge37_Node000025_Node000026" title=" " alt="" coords="290,309,123,367,121,362,288,304"/>
+<area shape="poly" id="edge40_Node000027_Node000007" title=" " alt="" coords="1904,224,2114,307,2292,362,2291,367,2112,312,1902,229"/>
+<area shape="rect" id="Node000028" href="$arm__timer_8cpp.html" title="This file implements the ARM timer used in BCM2835 as defined in arm_timer.hpp." alt="" coords="1621,269,1771,309"/>
+<area shape="poly" id="edge39_Node000027_Node000028" title=" " alt="" coords="1800,231,1729,272,1727,267,1797,226"/>
+<area shape="rect" id="Node000029" href="$arm__timer__window_8hpp.html" title="This file defines a window that visualizes the contents of the ARM timer registers." alt="" coords="1796,269,1999,309"/>
+<area shape="poly" id="edge41_Node000027_Node000029" title=" " alt="" coords="1864,232,1887,268,1883,271,1860,234"/>
+<area shape="poly" id="edge42_Node000029_Node000009" title=" " alt="" coords="1939,315,1962,334,1982,356,1999,381,2012,408,2030,452,2025,453,2008,410,1994,384,1978,359,1958,338,1936,320"/>
+<area shape="rect" id="Node000030" href="$arm__timer__window_8cpp.html" title="This file implements a window that visualizes the contents of the ARM timer registers." alt="" coords="1765,357,1968,397"/>
+<area shape="poly" id="edge43_Node000029_Node000030" title=" " alt="" coords="1888,323,1876,358,1871,356,1883,322"/>
+<area shape="poly" id="edge47_Node000031_Node000007" title=" " alt="" coords="2841,311,2836,312,2648,337,2459,360,2396,369,2395,364,2458,355,2647,332,2836,307,2841,306"/>
+<area shape="rect" id="Node000032" href="$auxiliary_8cpp.html" title=" " alt="" coords="2898,357,3067,397"/>
+<area shape="poly" id="edge45_Node000031_Node000032" title=" " alt="" coords="2958,321,2976,356,2971,358,2953,323"/>
+<area shape="rect" id="Node000033" href="$mini__uart_8cpp.html" title="This file implements the Mini UART auxiliary peripheral used in BCM2835." alt="" coords="2697,357,2873,397"/>
+<area shape="poly" id="edge46_Node000031_Node000033" title=" " alt="" coords="2895,318,2820,360,2818,355,2893,314"/>
+<area shape="rect" id="Node000034" href="$aux__window_8hpp.html" title="This file defines a window that visualizes the auxiliaries (UART1 &amp; SPI1, and SPI2) used in BCM2835." alt="" coords="3092,357,3295,397"/>
+<area shape="poly" id="edge48_Node000031_Node000034" title=" " alt="" coords="3009,311,3139,355,3137,360,3008,316"/>
+<area shape="poly" id="edge49_Node000034_Node000009" title=" " alt="" coords="3078,400,2827,421,2631,427,2436,432,2187,448,2089,459,2088,453,2186,443,2435,427,2631,422,2827,415,3078,395"/>
+<area shape="rect" id="Node000035" href="$aux__window_8cpp.html" title="This file implements a window that visualizes the auxiliaries (UART1 &amp; SPI1, and SPI2) used in BCM283..." alt="" coords="3092,445,3295,485"/>
+<area shape="poly" id="edge50_Node000034_Node000035" title=" " alt="" coords="3196,411,3196,445,3191,445,3191,411"/>
+<area shape="poly" id="edge53_Node000036_Node000007" title=" " alt="" coords="2242,315,2316,362,2313,367,2239,319"/>
+<area shape="rect" id="Node000037" href="$bsc_8cpp.html" title="This file implements the BSC peripheral used in BCM2835." alt="" coords="2094,357,2245,397"/>
+<area shape="poly" id="edge52_Node000036_Node000037" title=" " alt="" coords="2191,323,2179,358,2174,356,2186,322"/>
+<area shape="poly" id="edge58_Node000038_Node000007" title=" " alt="" coords="2667,223,2706,239,2737,259,2747,270,2753,283,2752,297,2743,312,2611,335,2396,369,2395,364,2610,330,2740,307,2747,295,2747,284,2743,273,2734,263,2704,244,2665,228"/>
+<area shape="poly" id="edge55_Node000038_Node000031" title=" " alt="" coords="2671,221,2862,267,2861,272,2669,226"/>
+<area shape="poly" id="edge56_Node000038_Node000036" title=" " alt="" coords="2493,225,2276,274,2275,268,2492,220"/>
+<area shape="rect" id="Node000039" href="$gpio_8cpp.html" title="This file implements the GPIO controller used in BCM2835 (defined in gpio.hpp)." alt="" coords="2578,269,2729,309"/>
+<area shape="poly" id="edge57_Node000038_Node000039" title=" " alt="" coords="2608,230,2639,267,2635,271,2604,234"/>
+<area shape="rect" id="Node000040" href="$gpio__window_8hpp.html" title="This file defines a window that visualizes the states and information about GPIO pins." alt="" coords="2351,269,2553,309"/>
+<area shape="poly" id="edge59_Node000038_Node000040" title=" " alt="" coords="2542,232,2482,271,2479,267,2540,227"/>
+<area shape="poly" id="edge60_Node000040_Node000009" title=" " alt="" coords="2450,323,2437,363,2425,383,2410,399,2392,408,2362,416,2277,432,2089,459,2088,454,2276,427,2361,411,2390,403,2406,395,2421,380,2432,361,2445,322"/>
+<area shape="rect" id="Node000041" href="$gpio__window_8cpp.html" title="This file implements a window that visualizes the states and information about GPIO pins." alt="" coords="2471,357,2673,397"/>
+<area shape="poly" id="edge61_Node000040_Node000041" title=" " alt="" coords="2492,315,2547,355,2544,359,2488,320"/>
+<area shape="poly" id="edge63_Node000042_Node000003" title=" " alt="" coords="2266,120,2004,128,1676,141,1381,160,1275,171,1213,184,1197,192,1186,201,1162,223,1089,271,1086,267,1158,219,1183,197,1194,187,1211,179,1274,166,1380,154,1676,136,2003,122,2266,114"/>
+<area shape="poly" id="edge68_Node000042_Node000007" title=" " alt="" coords="2410,140,2429,158,2444,178,2451,200,2445,223,2433,236,2420,244,2392,248,2364,253,2352,259,2341,271,2331,294,2327,320,2332,364,2327,365,2322,320,2326,293,2336,268,2349,255,2362,248,2391,243,2418,239,2430,232,2440,220,2446,200,2440,181,2425,161,2407,144"/>
+<area shape="poly" id="edge64_Node000042_Node000027" title=" " alt="" coords="2267,134,1919,190,1918,185,2266,129"/>
+<area shape="poly" id="edge65_Node000042_Node000031" title=" " alt="" coords="2473,131,2569,152,2670,179,2796,224,2900,267,2898,272,2794,229,2669,184,2568,157,2472,136"/>
+<area shape="poly" id="edge66_Node000042_Node000038" title=" " alt="" coords="2429,136,2536,179,2534,184,2427,141"/>
+<area shape="rect" id="Node000043" href="$interrupt__controller_8cpp.html" title="This file implements the interrupt controller used in BCM2835 (defined in interrupt_controller...." alt="" coords="2253,181,2430,221"/>
+<area shape="poly" id="edge67_Node000042_Node000043" title=" " alt="" coords="2361,147,2350,182,2345,180,2356,146"/>
+<area shape="rect" id="Node000044" href="$interrupt__controller__window_8hpp.html" title="This file defines a window that visualizes the interrupt controller IC." alt="" coords="1993,181,2228,221"/>
+<area shape="poly" id="edge69_Node000042_Node000044" title=" " alt="" coords="2300,140,2168,184,2166,179,2299,135"/>
+<area shape="poly" id="edge70_Node000044_Node000009" title=" " alt="" coords="2103,235,2037,453,2032,452,2098,234"/>
+<area shape="poly" id="edge73_Node000046_Node000007" title=" " alt="" coords="3192,300,2459,360,2396,368,2395,363,2458,355,3192,295"/>
+<area shape="rect" id="Node000047" href="$monitor_8cpp.html" title="This file implements an 80x25 8&#45;bit memory&#45;mapped monitor which is used as a debug output." alt="" coords="3546,357,3697,397"/>
+<area shape="poly" id="edge72_Node000046_Node000047" title=" " alt="" coords="3370,310,3548,355,3546,360,3368,315"/>
+<area shape="rect" id="Node000048" href="$monitor__window_8hpp.html" title="This file defines a window that visualizes the memory&#45;mapped debug monitor." alt="" coords="3319,357,3521,397"/>
+<area shape="poly" id="edge74_Node000046_Node000048" title=" " alt="" coords="3325,314,3391,355,3388,360,3322,319"/>
+<area shape="poly" id="edge75_Node000048_Node000009" title=" " alt="" coords="3305,400,3135,415,2990,423,2744,428,2499,431,2356,437,2187,448,2089,459,2088,453,2186,443,2356,431,2499,425,2744,423,2990,418,3134,410,3305,395"/>
+<area shape="poly" id="edge78_Node000050_Node000007" title=" " alt="" coords="3559,300,3369,312,3113,324,2914,330,2714,339,2459,360,2396,368,2395,363,2458,355,2714,334,2913,325,3113,319,3369,307,3559,294"/>
+<area shape="rect" id="Node000051" href="$ram_8cpp.html" title="This file implements the RAM (random access memory) used in BCM2835." alt="" coords="3949,357,4099,397"/>
+<area shape="poly" id="edge77_Node000050_Node000051" title=" " alt="" coords="3738,308,3949,356,3948,361,3736,313"/>
+<area shape="rect" id="Node000052" href="$ram__window_8hpp.html" title="This file defines a window that visualizes the contents of the RAM." alt="" coords="3721,357,3924,397"/>
+<area shape="poly" id="edge79_Node000050_Node000052" title=" " alt="" coords="3700,313,3786,355,3783,360,3697,318"/>
+<area shape="poly" id="edge80_Node000052_Node000009" title=" " alt="" coords="3708,400,3476,419,3280,428,3107,430,2946,429,2612,428,2417,434,2187,448,2089,458,2088,453,2186,443,2417,429,2612,423,2946,424,3107,425,3280,422,3476,413,3707,395"/>
+<area shape="poly" id="edge83_Node000054_Node000007" title=" " alt="" coords="2821,147,2819,185,2811,230,2794,274,2782,294,2765,312,2396,369,2395,364,2763,307,2777,291,2790,272,2806,228,2814,185,2816,147"/>
+<area shape="rect" id="Node000055" href="$trng_8cpp.html" title="This file implements the TRNG (random number generator) used in BCM2835." alt="" coords="2855,181,3006,221"/>
+<area shape="poly" id="edge82_Node000054_Node000055" title=" " alt="" coords="2855,140,2907,179,2904,183,2852,144"/>
 </map>

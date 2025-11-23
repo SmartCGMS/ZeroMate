@@ -1,7 +1,11 @@
 <map id="zero_mate::arm1176jzf_s::CCPU_Core::Get_Offset" name="zero_mate::arm1176jzf_s::CCPU_Core::Get_Offset">
-<area shape="rect" id="node1" title="Calculates the offset from the base address in a single data transfer instruction." alt="" coords="5,133,200,174"/>
-<area shape="rect" id="node2" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#a73d5c3a98f3fe036a1348d4d7485d0e9" title="Returns the index of the second operand register (Rm)." alt="" coords="248,5,436,61"/>
-<area shape="rect" id="node3" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#ae851afadd74822ec9363797ab332f45a" title="Returns the shift amount used when constructing the second operand (immediate second operand)." alt="" coords="248,85,436,141"/>
-<area shape="rect" id="node4" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#ae43548d291eecc463c519086e7527ff2" title="Returns the shift type used when constructing the second operand." alt="" coords="248,165,436,221"/>
-<area shape="rect" id="node5" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#a1dc73c441b156452b1467eaa5cab46f5" title="Returns the value of the I bit (bit 25 = immediate second operand)." alt="" coords="248,245,436,301"/>
+<area shape="rect" id="Node000001" title="Calculates the offset from the base address in a single data transfer instruction." alt="" coords="5,131,200,171"/>
+<area shape="rect" id="Node000002" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#a73d5c3a98f3fe036a1348d4d7485d0e9" title="Returns the index of the second operand register (Rm)." alt="" coords="248,5,436,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,129,247,69,259,63,261,68,249,74,139,134"/>
+<area shape="rect" id="Node000003" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#ae851afadd74822ec9363797ab332f45a" title="Returns the shift amount used when constructing the second operand (immediate second operand)." alt="" coords="248,84,436,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,132,234,127,235,132,201,138"/>
+<area shape="rect" id="Node000004" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#ae43548d291eecc463c519086e7527ff2" title="Returns the shift type used when constructing the second operand." alt="" coords="248,163,436,217"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="201,164,235,170,234,175,200,170"/>
+<area shape="rect" id="Node000005" href="$classzero__mate_1_1arm1176jzf__s_1_1isa_1_1CData__Processing.html#a1dc73c441b156452b1467eaa5cab46f5" title="Returns the value of the I bit (bit 25 = immediate second operand)." alt="" coords="248,241,436,296"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="141,169,249,226,264,233,261,238,247,231,138,174"/>
 </map>

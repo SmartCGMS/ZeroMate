@@ -19,8 +19,10 @@
 // ---------------------------------------------------------------------------------------------------------------------
 int main(int argc, const char* argv[])
 {
+    zero_mate::gui::startup::Args args = zero_mate::gui::startup::Parse_Args(argc, argv);
+
     // Init the system (create & connect peripherals).
-    zero_mate::soc::Init();
+    zero_mate::soc::Init(args);
 
     // Run the GUI.
     return zero_mate::gui::Main_GUI(argc, argv);

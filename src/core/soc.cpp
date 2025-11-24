@@ -29,6 +29,7 @@
 #include "soc.hpp"
 #include "zero_mate/utils/singleton.hpp"
 #include "../utils/logger/logger_stdo.hpp"
+#include "../gui/gui.hpp"
 
 namespace zero_mate::soc
 {
@@ -413,17 +414,19 @@ namespace zero_mate::soc
         // -------------------------------------------------------------------------------------------------------------
         /// \brief Initializes external peripherals as they are defined in the config file.
         // -------------------------------------------------------------------------------------------------------------
-        inline void Init_External_Peripherals()
+        inline void Init_External_Peripherals(const zero_mate::gui::startup::Args& args)
         {
+            std::string config_file_path = args.peripherals_file_path.has_value() ? args.peripherals_file_path.value() : config::External_Peripherals_Config_File;
+
             // Get the data from the input file.
-            nlohmann::json data = Parse_JSON_File(config::External_Peripherals_Config_File);
+            nlohmann::json data = Parse_JSON_File(config_file_path);
 
             // Make sure a "peripherals" section exists in the input file.
             if (!data.contains("peripherals"))
             {
                 // clang-format off
                 g_logging_system.Error(fmt::format("No peripherals section found in {}",
-                                                   config::External_Peripherals_Config_File).c_str());
+                                                   config_file_path).c_str());
                 // clang-format on
 
                 return;
@@ -460,11 +463,11 @@ namespace zero_mate::soc
         }
     }
 
-    void Init()
+    void Init(const zero_mate::gui::startup::Args& args)
     {
         Initialize_Logging_System();
         Initialize_Peripherals();
-        Init_External_Peripherals();
+        Init_External_Peripherals(args);
     }
 
 } // namespace zero_mate::soc

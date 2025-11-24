@@ -37,6 +37,11 @@
 #include "peripherals/bsc.hpp"
 #include "peripherals/auxiliary/auxiliary.hpp"
 
+namespace zero_mate::gui::startup
+{
+    struct Args;
+}
+
 namespace zero_mate::soc
 {
     namespace config
@@ -154,6 +159,6 @@ namespace zero_mate::soc
     ///
     /// It creates instances of all "internal" peripherals, loads and hooks up external peripherals, etc.
     // -----------------------------------------------------------------------------------------------------------------
-    void Init();
+    void Init(const zero_mate::gui::startup::Args& args);
 
 } // namespace zero_mate::soc

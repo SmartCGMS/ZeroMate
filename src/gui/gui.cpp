@@ -200,6 +200,26 @@ namespace zero_mate::gui
         }
     }
 
+    namespace startup
+    {
+        // -----------------------------------------------------------------------------------------------------------------
+        Args Parse_Args([[maybe_unused]] int argc, [[maybe_unused]] const char* argv[])
+        {
+            Args args{};
+
+            for (int i = 1; i < argc; ++i)
+            {
+                const std::string_view arg = argv[i];
+                if (arg == "--peripherals" && i + 1 < argc)
+                {
+                    args.peripherals_file_path = argv[++i];
+                }
+            }
+
+            return args;
+        }
+    } // namespace startup
+
     int Main_GUI([[maybe_unused]] int argc, [[maybe_unused]] const char* argv[])
     {
         // Initialize all windows.

@@ -11,6 +11,8 @@
 // STL imports (excluded from Doxygen)
 /// \cond
 #include <cstdint>
+#include <optional>
+#include <string>
 /// \endcond
 
 namespace zero_mate::gui
@@ -27,6 +29,21 @@ namespace zero_mate::gui
         inline const char* const Window_Icon_Path = "logos/logo.png";
 
     } // namespace config
+
+    namespace startup
+    {
+        struct Args {
+            std::optional<std::string> peripherals_file_path;
+        };
+
+        // -----------------------------------------------------------------------------------------------------------------
+        /// \brief Parses command line arguments passed into the application.
+        /// \param argc Number of arguments passed into the function
+        /// \param argv Arguments themselves
+        /// \return Parsed arguments
+        // -----------------------------------------------------------------------------------------------------------------
+        Args Parse_Args(int argc, const char* argv[]);
+    } // namespace startup
 
     // -----------------------------------------------------------------------------------------------------------------
     /// \brief Main entry point of the GUI of the application.

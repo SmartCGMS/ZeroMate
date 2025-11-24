@@ -12,7 +12,15 @@
 #include <string>
 #include <unordered_map>
 #include <mutex>
+#include <filesystem>
 /// \endcond
+
+#ifdef WIN32
+    #define WIN32_LEAN_AND_MEAN
+    #include <windows.h>
+#else
+    #include <unistd.h>
+#endif
 
 // Project file imports
 #include "app_preferences.hpp"
@@ -34,7 +42,21 @@ namespace zero_mate::utils::prefs
 
         void Load_Preferences_From_Disk()
         {
-            std::ifstream prefs_file(Preferences_Filename);
+            // get current exe directory
+#ifdef WIN32
+            char buffer[256];
+            GetModuleFileNameA(NULL, buffer, 256);
+            std::string exe_path(buffer);
+#else
+            std::string proc_path = "/proc/self/exe";
+            char buffer[256];
+            readlink(proc_path.c_str(), buffer, sizeof(buffer) - 1);
+            std::string exe_path(buffer);
+#endif
+            std::filesystem::path prefs_path = std::filesystem::path(exe_path).parent_path() / Preferences_Filename;
+
+
+            std::ifstream prefs_file(prefs_path);
             if (!prefs_file)
             {
                 // Handle file not found or inaccessible

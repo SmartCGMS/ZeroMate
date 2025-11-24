@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "zero_mate::gui::startup::Args", "structzero__mate_1_1gui_1_1startup_1_1Args.html", null ],
     [ "zero_mate::CBus", "classzero__mate_1_1CBus.html", null ],
     [ "zero_mate::gui::CCircular_Log_Buffer< Type, Size >", "classzero__mate_1_1gui_1_1CCircular__Log__Buffer.html", null ],
     [ "zero_mate::gui::CCircular_Log_Buffer< std::string, Max_Logs >", "classzero__mate_1_1gui_1_1CCircular__Log__Buffer.html", null ],

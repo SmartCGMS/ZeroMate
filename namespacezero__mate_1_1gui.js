@@ -6,6 +6,7 @@ var namespacezero__mate_1_1gui =
       [ "Icons_Path", "namespacezero__mate_1_1gui_1_1config.html#a7c2f9c6c64b1802a2a93e7da4bc7a16a", null ],
       [ "Window_Icon_Path", "namespacezero__mate_1_1gui_1_1config.html#af427d7a82ba72d9aaaede4da9b8d4ce1", null ]
     ] ],
+    [ "startup", "namespacezero__mate_1_1gui_1_1startup.html", "namespacezero__mate_1_1gui_1_1startup" ],
     [ "CARM_Timer_Window", "classzero__mate_1_1gui_1_1CARM__Timer__Window.html", "classzero__mate_1_1gui_1_1CARM__Timer__Window" ],
     [ "CAUX_Window", "classzero__mate_1_1gui_1_1CAUX__Window.html", "classzero__mate_1_1gui_1_1CAUX__Window" ],
     [ "CCircular_Log_Buffer", "classzero__mate_1_1gui_1_1CCircular__Log__Buffer.html", "classzero__mate_1_1gui_1_1CCircular__Log__Buffer" ],

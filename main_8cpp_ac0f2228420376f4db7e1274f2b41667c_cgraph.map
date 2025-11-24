@@ -1,9 +1,11 @@
 <map id="main" name="main">
-<area shape="rect" id="Node000001" title="Entry point of the application." alt="" coords="5,57,60,82"/>
-<area shape="rect" id="Node000002" href="$namespacezero__mate_1_1soc.html#a3a1bd117cb86b2023bd0a9c617ce3bfe" title="Initializes the system." alt="" coords="128,31,279,57"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,63,114,55,114,60,61,68"/>
+<area shape="rect" id="Node000001" title="Entry point of the application." alt="" coords="5,81,60,106"/>
+<area shape="rect" id="Node000002" href="$namespacezero__mate_1_1soc.html#afd2705ddec33a890cf8eff78a144e3b0" title="Initializes the system." alt="" coords="128,31,279,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,81,107,65,135,58,136,63,109,71,61,86"/>
 <area shape="rect" id="Node000003" href="$namespacezero__mate_1_1gui.html#af6a45e4660638d498cd499f94ddaad6f" title="Main entry point of the GUI of the application." alt="" coords="108,81,299,106"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="61,70,100,76,99,81,60,76"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="60,91,94,91,94,96,60,96"/>
+<area shape="rect" id="Node000010" href="$namespacezero__mate_1_1gui_1_1startup.html#a0c9c34ff925b20ecb8afb0195f5bef79" title="Parses command line arguments passed into the application." alt="" coords="117,131,290,171"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="61,100,131,124,130,129,59,105"/>
 <area shape="rect" id="Node000004" href="$classzero__mate_1_1utils_1_1CLogging__System.html#a57ed77e1a5cf822cea532cc5e05c3f60" title="Logs an error message via all registered loggers." alt="" coords="347,41,541,81"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="298,78,333,73,333,79,299,83"/>
 <area shape="rect" id="Node000009" href="$classzero__mate_1_1utils_1_1CLogging__System.html#a2bb4d37b178f29335f726875bad91bd4" title="Logs a warning message via all registered loggers." alt="" coords="347,105,541,145"/>

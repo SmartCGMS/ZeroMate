@@ -84,6 +84,9 @@ var annotated_dup =
         [ "color", "namespacezero__mate_1_1gui_1_1color.html", [
           [ "TRGB", "structzero__mate_1_1gui_1_1color_1_1TRGB.html", "structzero__mate_1_1gui_1_1color_1_1TRGB" ]
         ] ],
+        [ "startup", "namespacezero__mate_1_1gui_1_1startup.html", [
+          [ "Args", "structzero__mate_1_1gui_1_1startup_1_1Args.html", "structzero__mate_1_1gui_1_1startup_1_1Args" ]
+        ] ],
         [ "CARM_Timer_Window", "classzero__mate_1_1gui_1_1CARM__Timer__Window.html", "classzero__mate_1_1gui_1_1CARM__Timer__Window" ],
         [ "CAUX_Window", "classzero__mate_1_1gui_1_1CAUX__Window.html", "classzero__mate_1_1gui_1_1CAUX__Window" ],
         [ "CCircular_Log_Buffer", "classzero__mate_1_1gui_1_1CCircular__Log__Buffer.html", "classzero__mate_1_1gui_1_1CCircular__Log__Buffer" ],

@@ -5,6 +5,7 @@ var searchData=
   ['pc_5freg_5fidx_2',['PC_Reg_Idx',['../classzero__mate_1_1arm1176jzf__s_1_1CCPU__Context.html#adaffeb9fb2df35732736f9ac679d5516',1,'zero_mate::arm1176jzf_s::CCPU_Context']]],
   ['pending_3',['pending',['../structzero__mate_1_1peripheral_1_1CInterrupt__Controller_1_1TInterrupt__Info.html#a98b5bc9614b72bdcf2978a03f73b4111',1,'zero_mate::peripheral::CInterrupt_Controller::TInterrupt_Info']]],
   ['peripheral_4',['peripheral',['../structzero__mate_1_1CBus_1_1TMapped__Peripheral.html#a5ab32e4ea405fe26a9cf532f106b04ff',1,'zero_mate::CBus::TMapped_Peripheral']]],
-  ['physical_5faddr_5',['physical_addr',['../structzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU_1_1TPage__Table__Record.html#ad32c3c302ef9405cde812404da124dcc',1,'zero_mate::arm1176jzf_s::mmu::CMMU::TPage_Table_Record']]],
-  ['prescaler_6',['Prescaler',['../structzero__mate_1_1peripheral_1_1CARM__Timer_1_1TControl__Register.html#a597c634ce3c1cfb30325f9828493ad27',1,'zero_mate::peripheral::CARM_Timer::TControl_Register']]]
+  ['peripherals_5ffile_5fpath_5',['peripherals_file_path',['../structzero__mate_1_1gui_1_1startup_1_1Args.html#a0bf88079a342c06f22ce77d6a7a5519d',1,'zero_mate::gui::startup::Args']]],
+  ['physical_5faddr_6',['physical_addr',['../structzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU_1_1TPage__Table__Record.html#ad32c3c302ef9405cde812404da124dcc',1,'zero_mate::arm1176jzf_s::mmu::CMMU::TPage_Table_Record']]],
+  ['prescaler_7',['Prescaler',['../structzero__mate_1_1peripheral_1_1CARM__Timer_1_1TControl__Register.html#a597c634ce3c1cfb30325f9828493ad27',1,'zero_mate::peripheral::CARM_Timer::TControl_Register']]]
 ];

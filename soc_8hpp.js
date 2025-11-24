@@ -1,6 +1,6 @@
 var soc_8hpp =
 [
-    [ "Init", "soc_8hpp.html#a3a1bd117cb86b2023bd0a9c617ce3bfe", null ],
+    [ "Init", "soc_8hpp.html#afd2705ddec33a890cf8eff78a144e3b0", null ],
     [ "ARM_Timer_Address", "soc_8hpp.html#a0b9c1816e485f680330c939a4066f17d", null ],
     [ "AUX_Address", "soc_8hpp.html#a22320326abefd378425806d64368eb9b", null ],
     [ "BSC_1_Address", "soc_8hpp.html#a9729f8556afdc64fe3aacba04cfbe23f", null ],

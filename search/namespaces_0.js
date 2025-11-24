@@ -15,12 +15,13 @@ var searchData=
   ['zero_5fmate_3a_3agui_12',['gui',['../namespacezero__mate_1_1gui.html',1,'zero_mate']]],
   ['zero_5fmate_3a_3agui_3a_3acolor_13',['color',['../namespacezero__mate_1_1gui_1_1color.html',1,'zero_mate::gui']]],
   ['zero_5fmate_3a_3agui_3a_3aconfig_14',['config',['../namespacezero__mate_1_1gui_1_1config.html',1,'zero_mate::gui']]],
-  ['zero_5fmate_3a_3aperipheral_15',['peripheral',['../namespacezero__mate_1_1peripheral.html',1,'zero_mate']]],
-  ['zero_5fmate_3a_3asoc_16',['soc',['../namespacezero__mate_1_1soc.html',1,'zero_mate']]],
-  ['zero_5fmate_3a_3asoc_3a_3aconfig_17',['config',['../namespacezero__mate_1_1soc_1_1config.html',1,'zero_mate::soc']]],
-  ['zero_5fmate_3a_3asoc_3a_3aconfig_3a_3asections_18',['sections',['../namespacezero__mate_1_1soc_1_1config_1_1sections.html',1,'zero_mate::soc::config']]],
-  ['zero_5fmate_3a_3autils_19',['utils',['../namespacezero__mate_1_1utils.html',1,'zero_mate']]],
-  ['zero_5fmate_3a_3autils_3a_3aelf_20',['elf',['../namespacezero__mate_1_1utils_1_1elf.html',1,'zero_mate::utils']]],
-  ['zero_5fmate_3a_3autils_3a_3amath_21',['math',['../namespacezero__mate_1_1utils_1_1math.html',1,'zero_mate::utils']]],
-  ['zero_5fmate_3a_3autils_3a_3aprefs_22',['prefs',['../namespacezero__mate_1_1utils_1_1prefs.html',1,'zero_mate::utils']]]
+  ['zero_5fmate_3a_3agui_3a_3astartup_15',['startup',['../namespacezero__mate_1_1gui_1_1startup.html',1,'zero_mate::gui']]],
+  ['zero_5fmate_3a_3aperipheral_16',['peripheral',['../namespacezero__mate_1_1peripheral.html',1,'zero_mate']]],
+  ['zero_5fmate_3a_3asoc_17',['soc',['../namespacezero__mate_1_1soc.html',1,'zero_mate']]],
+  ['zero_5fmate_3a_3asoc_3a_3aconfig_18',['config',['../namespacezero__mate_1_1soc_1_1config.html',1,'zero_mate::soc']]],
+  ['zero_5fmate_3a_3asoc_3a_3aconfig_3a_3asections_19',['sections',['../namespacezero__mate_1_1soc_1_1config_1_1sections.html',1,'zero_mate::soc::config']]],
+  ['zero_5fmate_3a_3autils_20',['utils',['../namespacezero__mate_1_1utils.html',1,'zero_mate']]],
+  ['zero_5fmate_3a_3autils_3a_3aelf_21',['elf',['../namespacezero__mate_1_1utils_1_1elf.html',1,'zero_mate::utils']]],
+  ['zero_5fmate_3a_3autils_3a_3amath_22',['math',['../namespacezero__mate_1_1utils_1_1math.html',1,'zero_mate::utils']]],
+  ['zero_5fmate_3a_3autils_3a_3aprefs_23',['prefs',['../namespacezero__mate_1_1utils_1_1prefs.html',1,'zero_mate::utils']]]
 ];

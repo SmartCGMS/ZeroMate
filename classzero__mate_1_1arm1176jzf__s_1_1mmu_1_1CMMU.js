@@ -2,8 +2,8 @@ var classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU =
 [
     [ "TPage_Table_Record", "structzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU_1_1TPage__Table__Record.html", "structzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU_1_1TPage__Table__Record" ],
     [ "CMMU", "classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a3c0179b6ac95d367f07341bf49dfc87e", null ],
-    [ "Fetch_DL1_From_RAM", "classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a2af0846c0e594495eeeb2ec51717dfa7", null ],
-    [ "Flush_TLB_If_Needed", "classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a6b99dfecfa3116a2524cd0a5e5217a9a", null ],
+    [ "Fetch_DL1_From_RAM", "classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a146071c82cabc04d796985ff1e2c01a0", null ],
+    [ "Flush_TLB_If_Needed", "classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a433c1b9ff89dd68f5dbcb9e9809f9b4a", null ],
     [ "Get_Page_Table", "classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a2c8669fcd6fc4be14872ba31f3a63c1c", null ],
     [ "Get_Page_Table_Record", "classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#ab7c06f58fdf9bd0ad522175c47b9dd0e", null ],
     [ "Get_Physical_Addr", "classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a7bc1002a8f1032547deee07589cbbb84", null ],

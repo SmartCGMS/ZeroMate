@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a2af0846c0e594495eeeb2ec51717dfa7" target="_top" xlink:title="Fetches the first level page tables (tbbr0, tbbr1) from the RAM.">
+<g id="a_Node000002"><a xlink:href="classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a146071c82cabc04d796985ff1e2c01a0" target="_top" xlink:title="Fetches the first level page tables (tbbr0, tbbr1) from the RAM.">
 <polygon fill="white" stroke="#666666" points="384.5,-355 254.5,-355 254.5,-314 384.5,-314 384.5,-355"/>
 <text text-anchor="start" x="262.5" y="-343" font-family="Helvetica,sans-Serif" font-size="10.00">zero_mate::arm1176jzf</text>
 <text text-anchor="start" x="262.5" y="-332" font-family="Helvetica,sans-Serif" font-size="10.00">_s::mmu::CMMU::Fetch</text>
@@ -41,7 +41,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a6b99dfecfa3116a2524cd0a5e5217a9a" target="_top" xlink:title="Checks if the TLB entries should be invalidated and if so, it clears the cache.">
+<g id="a_Node000005"><a xlink:href="classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a433c1b9ff89dd68f5dbcb9e9809f9b4a" target="_top" xlink:title="Checks if the TLB entries should be invalidated and if so, it clears the cache.">
 <polygon fill="white" stroke="#666666" points="384.5,-296 254.5,-296 254.5,-255 384.5,-255 384.5,-296"/>
 <text text-anchor="start" x="262.5" y="-284" font-family="Helvetica,sans-Serif" font-size="10.00">zero_mate::arm1176jzf</text>
 <text text-anchor="start" x="262.5" y="-273" font-family="Helvetica,sans-Serif" font-size="10.00">_s::mmu::CMMU::Flush</text>

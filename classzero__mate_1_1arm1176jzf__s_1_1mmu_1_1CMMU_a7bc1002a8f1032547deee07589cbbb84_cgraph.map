@@ -1,8 +1,8 @@
 <map id="zero_mate::arm1176jzf_s::mmu::CMMU::Get_Physical_Addr" name="zero_mate::arm1176jzf_s::mmu::CMMU::Get_Physical_Addr">
 <area shape="rect" id="Node000001" title="Converts a given virtual address into a physical address." alt="" coords="5,163,264,203"/>
-<area shape="rect" id="Node000002" href="$classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a2af0846c0e594495eeeb2ec51717dfa7" title="Fetches the first level page tables (tbbr0, tbbr1) from the RAM." alt="" coords="345,5,518,60"/>
+<area shape="rect" id="Node000002" href="$classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a146071c82cabc04d796985ff1e2c01a0" title="Fetches the first level page tables (tbbr0, tbbr1) from the RAM." alt="" coords="345,5,518,60"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,161,228,116,311,69,331,60,333,65,313,74,230,120,164,165"/>
-<area shape="rect" id="Node000005" href="$classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a6b99dfecfa3116a2524cd0a5e5217a9a" title="Checks if the TLB entries should be invalidated and if so, it clears the cache." alt="" coords="345,84,518,139"/>
+<area shape="rect" id="Node000005" href="$classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a433c1b9ff89dd68f5dbcb9e9809f9b4a" title="Checks if the TLB entries should be invalidated and if so, it clears the cache." alt="" coords="345,84,518,139"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="217,161,330,133,332,138,219,166"/>
 <area shape="rect" id="Node000007" href="$classzero__mate_1_1arm1176jzf__s_1_1mmu_1_1CMMU.html#a2c8669fcd6fc4be14872ba31f3a63c1c" title="Returns the page table that will be used for address translation (boundary register C2 C0 2)." alt="" coords="312,163,551,203"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="264,181,298,181,298,186,264,186"/>

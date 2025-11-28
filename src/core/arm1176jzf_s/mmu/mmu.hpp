@@ -78,7 +78,7 @@ namespace zero_mate::arm1176jzf_s::mmu
         ///
         /// This function is called whenever either the tbbr0 or tbbr1 register changes.
         // -------------------------------------------------------------------------------------------------------------
-        inline void Fetch_DL1_From_RAM();
+        inline void Fetch_DL1_From_RAM(bool force = false);
 
         // -------------------------------------------------------------------------------------------------------------
         /// \brief Retrieves a given page from a page table by a given virtual address.
@@ -131,7 +131,7 @@ namespace zero_mate::arm1176jzf_s::mmu
         ///
         /// It does it by checking the flag in the c8, c7, 0 register of coprocessor CP15.
         // -------------------------------------------------------------------------------------------------------------
-        void Flush_TLB_If_Needed();
+        bool Flush_TLB_If_Needed();
 
         // -------------------------------------------------------------------------------------------------------------
         /// \brief Returns the page table that will be used for address translation (boundary register C2 C0 2).

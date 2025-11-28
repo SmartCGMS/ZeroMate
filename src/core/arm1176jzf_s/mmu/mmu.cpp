@@ -48,7 +48,7 @@ namespace zero_mate::arm1176jzf_s::mmu
         return cp15_c1->Is_Control_Flag_Set(coprocessor::cp15::CC1::NC0_Control_Flags::MMU_Enable);
     }
 
-    void CMMU::Fetch_DL1_From_RAM()
+    void CMMU::Fetch_DL1_From_RAM(bool force)
     {
         // Base address of translation tables are stored in the CP15's C2 register.
         const auto cp15_c2 =
@@ -59,7 +59,7 @@ namespace zero_mate::arm1176jzf_s::mmu
         cp15_c2->Get_TTB_Address(coprocessor::cp15::CC2::NCRm_C0_Register::Translation_Table_Base_0);
 
         // Check if it needs to updated (fetched from the RAM).
-        if (tbbr0_addr != m_TTBR0_addr)
+        if (tbbr0_addr != m_TTBR0_addr || force)
         {
             m_TTBR0_addr = tbbr0_addr;
             m_page_table_0 = m_bus->Read<CPage_Table>(m_TTBR0_addr);
@@ -70,7 +70,7 @@ namespace zero_mate::arm1176jzf_s::mmu
         cp15_c2->Get_TTB_Address(coprocessor::cp15::CC2::NCRm_C0_Register::Translation_Table_Base_1);
 
         // Check if it needs to updated (fetched from the RAM).
-        if (tbbr1_addr != m_TTBR1_addr)
+        if (tbbr1_addr != m_TTBR1_addr || force)
         {
             m_TTBR0_addr = tbbr1_addr;
             m_page_table_1 = m_bus->Read<CPage_Table>(m_TTBR1_addr);
@@ -172,7 +172,7 @@ namespace zero_mate::arm1176jzf_s::mmu
         Verify_Access_Privileges(page, virtual_addr, cpu_context, write_access);
     }
 
-    void CMMU::Flush_TLB_If_Needed()
+    bool CMMU::Flush_TLB_If_Needed()
     {
         // Get the C8 primary registers of CP15.
         auto cp15_c8 = m_cp15->Get_Primary_Register<coprocessor::cp15::CC8>(coprocessor::cp15::NPrimary_Register::C8);
@@ -182,7 +182,10 @@ namespace zero_mate::arm1176jzf_s::mmu
         {
             m_TLB_cache.clear();
             cp15_c8->TLB_Has_Been_Invalidated();
+            return true;
         }
+
+        return false;
     }
 
     CPage_Table& CMMU::Get_Page_Table(std::uint32_t virtual_addr)
@@ -205,10 +208,10 @@ namespace zero_mate::arm1176jzf_s::mmu
     CMMU::Get_Physical_Addr(std::uint32_t virtual_addr, const CCPU_Context& cpu_context, bool write_access)
     {
         // Check the TLB should be cleared.
-        Flush_TLB_If_Needed();
+        bool forceFlag = Flush_TLB_If_Needed();
 
         // Check if the page tables should be updated.
-        Fetch_DL1_From_RAM();
+        Fetch_DL1_From_RAM(forceFlag);
 
         // TODO should Verify_Access be called here as well? The TTBR may have been changed without flushing the TLB
         // (security issue)

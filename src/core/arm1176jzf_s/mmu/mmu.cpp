@@ -210,6 +210,17 @@ namespace zero_mate::arm1176jzf_s::mmu
         // Check the TLB should be cleared.
         bool forceFlag = Flush_TLB_If_Needed();
 
+        /*
+         * Note on the force reloading the page tables:
+         * As the ZeroMate caches the page table on one more level, we have to "invalidate" the ZeroMate cache.
+         * This cache is not present in real hardware, so we have to find a way to signalize it transparently.
+         * We chose to use the TLB flush flag to indicate page table invalidation to ZeroMate, as the user
+         * typically flushes the TLB anyways.
+         *
+         * Without this, mapping directly followed by memory access to the mapped memory resulted in translation
+         * fault, as the ZeroMate cache did not contain the current contents of the page table.
+         */
+
         // Check if the page tables should be updated.
         Fetch_DL1_From_RAM(forceFlag);
 
